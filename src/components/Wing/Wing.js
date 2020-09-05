@@ -34,7 +34,7 @@ class Wing extends Component {
     render(){
         return (<div id="login">
           <div id="lips_search_panel"><div id="beans_counter_label">0.0</div><div id="beans_counter_image"><img id="lips_search_icon" src="https://i.imgur.com/Hs3uInv.png"/></div></div>
-            <div id="metamask"><img id="metamask_logo" src="http://hivemuse.com/lips/2/metamask.png" alt="metamask" onClick={this.enable}/></div>
+            <div id="metamask"><div id="connect_label">connect wallet</div><img id="metamask_logo" src="http://hivemuse.com/lips/2/metamask.png" alt="metamask" onClick={this.enable}/></div>
             <div className="lips_menu" id="lips_account"  onClick={jump}><div id="lips_account_address"></div></div>
             
         </div>);
