@@ -6,6 +6,12 @@
  align: center;
 }
 
+#beanstalk{
+    width: 40px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
 #gofarm_button{
     cursor: pointer;
  
@@ -16,8 +22,9 @@
     background:rgb(5, 124, 21);
     border-radius:15px;
     font-weight: bold;
-    margin-left: -45px;
-    margin-top: 300px;
+    margin-left: -65px;
+    width: 210px;
+    margin-top: 20px;
 }
 
 #HappyFarm_mainlabel{
