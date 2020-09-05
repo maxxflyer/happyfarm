@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/happyfarm-test/static/css/main.73005ba4.chunk.css",
-    "main.js": "/happyfarm-test/static/js/main.1cddd401.chunk.js",
-    "main.js.map": "/happyfarm-test/static/js/main.1cddd401.chunk.js.map",
-    "runtime-main.js": "/happyfarm-test/static/js/runtime-main.7ab35183.js",
-    "runtime-main.js.map": "/happyfarm-test/static/js/runtime-main.7ab35183.js.map",
-    "static/js/2.aee42eb3.chunk.js": "/happyfarm-test/static/js/2.aee42eb3.chunk.js",
-    "static/js/2.aee42eb3.chunk.js.map": "/happyfarm-test/static/js/2.aee42eb3.chunk.js.map",
-    "index.html": "/happyfarm-test/index.html",
-    "precache-manifest.670e43acbc2e9a0a4f75ca710e92a0cf.js": "/happyfarm-test/precache-manifest.670e43acbc2e9a0a4f75ca710e92a0cf.js",
-    "service-worker.js": "/happyfarm-test/service-worker.js",
-    "static/css/main.73005ba4.chunk.css.map": "/happyfarm-test/static/css/main.73005ba4.chunk.css.map",
-    "static/js/2.aee42eb3.chunk.js.LICENSE.txt": "/happyfarm-test/static/js/2.aee42eb3.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/happyfarm-test/static/media/logo.5d5d9eef.svg"
+    "main.css": "/happyfarm/static/css/main.73005ba4.chunk.css",
+    "main.js": "/happyfarm/static/js/main.f34967b8.chunk.js",
+    "main.js.map": "/happyfarm/static/js/main.f34967b8.chunk.js.map",
+    "runtime-main.js": "/happyfarm/static/js/runtime-main.0896056b.js",
+    "runtime-main.js.map": "/happyfarm/static/js/runtime-main.0896056b.js.map",
+    "static/js/2.aee42eb3.chunk.js": "/happyfarm/static/js/2.aee42eb3.chunk.js",
+    "static/js/2.aee42eb3.chunk.js.map": "/happyfarm/static/js/2.aee42eb3.chunk.js.map",
+    "index.html": "/happyfarm/index.html",
+    "precache-manifest.c6ba86e8413d89e9b075ca4a3c685a2d.js": "/happyfarm/precache-manifest.c6ba86e8413d89e9b075ca4a3c685a2d.js",
+    "service-worker.js": "/happyfarm/service-worker.js",
+    "static/css/main.73005ba4.chunk.css.map": "/happyfarm/static/css/main.73005ba4.chunk.css.map",
+    "static/js/2.aee42eb3.chunk.js.LICENSE.txt": "/happyfarm/static/js/2.aee42eb3.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/happyfarm/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7ab35183.js",
+    "static/js/runtime-main.0896056b.js",
     "static/js/2.aee42eb3.chunk.js",
     "static/css/main.73005ba4.chunk.css",
-    "static/js/main.1cddd401.chunk.js"
+    "static/js/main.f34967b8.chunk.js"
   ]
 }
