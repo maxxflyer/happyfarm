@@ -5,9 +5,15 @@ import './css.css';
 
 
 class Home extends React.Component { 
-    
+    constructor(props) {
+        super(props)
+        this.state = { panel: 'Splash' }
+    }
 
-       
+    update(panelx){
+        this.setState({panel:panelx})
+        console.log("!");
+     }
    
 
     render(){ 
@@ -15,12 +21,10 @@ class Home extends React.Component {
        
         return (
         <div id="home">
-           <Lipshead></Lipshead>
-           <Pad/>
+           <Lipshead update={this.update.bind(this)}></Lipshead>
+           <Pad panel={this.state} update={this.update.bind(this)}/>
         </div>);
     }
-
-
 }
 
 

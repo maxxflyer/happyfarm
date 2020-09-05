@@ -2,13 +2,22 @@
  width: 200px;
  margin: auto;
  margin-top: 20px;
-height: 100%;
+
  align: center;
 }
 
-#mainpanel{
-    width: 100%;
-    height: 1000px;
+#gofarm_button{
+    cursor: pointer;
+ 
+    margin-bottom: 100px;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    background:rgb(5, 124, 21);
+    border-radius:15px;
+    font-weight: bold;
+    margin-left: -45px;
+    margin-top: 300px;
 }
 
 #HappyFarm_mainlabel{

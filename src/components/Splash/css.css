@@ -1,20 +1,16 @@
 #flyer{
  width: 200px;
  margin: auto;
- margin-top: 20px;
-height: 100%;
+ margin-top: 50px;
+
  align: center;
 }
 
-#mainpanel{
-    width: 100%;
-    height: 1000px;
-}
 
-#HappyFarm_mainlabel{
+#Splash_mainlabel{
     font-family: 'Oleo Script Swash Caps', cursive;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: -21px;
 }
 

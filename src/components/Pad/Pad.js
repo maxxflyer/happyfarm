@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Splash from '../Splash/Splash';
+import Beanometer from '../Beanometer/Beanometer';
 import HappyFarm from '../HappyFarm/HappyFarm';
 import './css.css'; 
 
@@ -22,13 +24,30 @@ class Pad extends React.Component {
     }
    
 
-    render(){   
+    render(){ 
+       
+      if(this.props.panel.panel=="Splash")
+        return (
+          <div id="superpad">
+            <div id="pad">
+              <Splash update={this.props.update}></Splash>
+            </div>
+          </div>
+        );
+        if(this.props.panel.panel=="Beanometer")
+        return (
+          <div id="superpad">
+            <div id="pad">
+              <Beanometer update={this.props.update}></Beanometer>
+            </div>           
+          </div>
+        );
+        if(this.props.panel.panel=="HappyFarm")
         return (
           <div id="superpad">
             <div id="pad">
               <HappyFarm></HappyFarm>
-            </div>
-            
+            </div>           
           </div>
         );
     }
