@@ -46,9 +46,7 @@
     margin-right: 15px;
     overflow: hidden;
 }
-#lips_search_panel:hover{
-    width: calc( 100% - 0);
-}
+
 
 #lips_search_icon{
     float: right;
