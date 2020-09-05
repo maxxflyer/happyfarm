@@ -1,0 +1,22 @@
+#flyer{
+ width: 200px;
+ margin: auto;
+ margin-top: 50px;
+
+ align: center;
+}
+
+
+#HappyFarm_mainlabel{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: white;
+    font-size: 40px;
+    margin-left: -21px;
+}
+
+#HappyFarm_sublabel{
+    font-family: 'Oleo Script Swash Caps', cursive;  
+    color: white;
+    font-size: 18px;
+    margin-left: -25px;
+}

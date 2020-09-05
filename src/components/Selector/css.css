@@ -1,0 +1,30 @@
+.selector{
+    width: calc( 100% - 20px );
+    height: calc( 100% - 20px );
+    padding: 10px;
+    background: red;
+    border-radius: 5px;
+}
+
+.selector_container{
+    width: 100px;
+}
+
+.selector_menu{
+
+    padding: 5px;
+    font-size: 18px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.selector_button{    
+    padding: 5px;
+    font-size: 18px;
+    width: 120px;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-bottom:10px;
+    background: red;
+    color: white;
+}

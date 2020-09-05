@@ -1,0 +1,30 @@
+#superpad{
+    width: calc( 100% );
+    height: calc( 100% - 120px );
+    background: rgb(9, 114, 14);
+    margin-top: 5px;
+}
+
+#pad{
+    width: calc( 100% - 40px);
+    height: calc( 100% - 30px );
+    padding: 20px;
+    background: rgb(45, 168, 65);
+
+    margin-top: 5px;
+}
+
+#openLayout{
+    background:rgb(5, 124, 21);
+color: white;
+float: right;
+width: 90px;
+border: solid 1px black;
+cursor: pointer;
+font-size: 26px;
+text-align: center;
+height: calc( 100% - 4px );
+border-radius: 5px;
+
+}
+

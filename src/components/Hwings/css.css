@@ -1,0 +1,24 @@
+.panelHwings_{
+    width: calc( 100% );
+    height: calc( 100%  );
+
+
+    
+}
+
+.Hwing{
+    float: left;
+    width: calc( 25% - 5px );
+    height: 100%
+}
+
+.HwingCenter{
+    float: left;
+    width: calc( 50% - 10px );
+    height: 100%
+}
+
+.hsplit{
+    width: 10px;
+    float: left;
+}

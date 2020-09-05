@@ -1,0 +1,24 @@
+.panelVwings_{
+    width: calc( 100% );
+    height: calc( 100%  );
+
+
+    
+}
+
+.Vwing{
+    float: left;
+    width: 100%;
+    height: calc( 25% - 5px );
+}
+
+.VwingCenter{
+    float: left;
+    height: calc( 50% - 10px );
+    width: 100%;
+}
+
+.vsplit{
+    height: 10px;
+    float: left;
+}

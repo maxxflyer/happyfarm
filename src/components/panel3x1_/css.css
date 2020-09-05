@@ -1,0 +1,18 @@
+.panel3x1_{
+    width: calc( 100% );
+    height: calc( 100%  );
+
+
+    
+}
+
+.column3{
+    float: left;
+    width: calc( ( 100% - 20px ) / 3 );
+    height: 100%
+}
+
+.hsplit{
+    width: 10px;
+    float: left;
+}
