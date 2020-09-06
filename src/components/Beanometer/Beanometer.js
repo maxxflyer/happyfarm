@@ -20,9 +20,13 @@ class Beanometer extends Component {
           
                 if(accounts[0]){
                     let supply = await beans.methods.balanceOf(accounts[0]).call()
+                    let supply_beanstalk=getBenstalk(supply)                  
                     document.getElementById("pointer_mainlabel").innerHTML="◄ "+supply/1000000000000000000+"<br>&nbsp;&nbsp;&nbsp; Beans";
+                    document.getElementById("frame_beanstalk").style="top: -"+(supply_beanstalk+4)+"px;";
+                    document.getElementById("beanstalk").style="margin-top: -"+(500-(supply_beanstalk))+"px;";
                 }else{
                     let supply = await beans.methods.balanceOf("0x510f0a380c914928386bdA31dC159FcB30Ffa708").call()
+                    let supply_beanstalk=getBenstalk(supply)    
                     document.getElementById("pointer_mainlabel").innerHTML="◄ "+supply/1000000000000000000+"<br>&nbsp;&nbsp;&nbsp; Beans";
                 }
             })
@@ -43,6 +47,20 @@ class Beanometer extends Component {
         );
     }
 
+
+}
+
+function getBenstalk(sup){
+    let suptemp=sup/1000000000000000000
+    console.log(suptemp)
+    if(suptemp<=1){suptemp=suptemp*100;}else
+    if(suptemp<=10){suptemp=suptemp*10+100;}else
+    if(suptemp<=100){suptemp=suptemp+200;}else
+    if(suptemp<=1000){suptemp=suptemp/10+300;}else{
+        suptemp=suptemp/100+400;
+    }
+    console.log(suptemp)
+    return suptemp
 
 }
 
