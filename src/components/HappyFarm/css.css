@@ -3,7 +3,7 @@
  margin: auto;
  margin-top: 20px;
 height: 100%;
- align: center;
+ text-align: center;
 }
 
 #mainpanel{
@@ -15,7 +15,43 @@ height: 100%;
     font-family: 'Oleo Script Swash Caps', cursive;
     color: white;
     font-size: 30px;
-    margin-left: -21px;
+}
+
+#farm_offer_icons{
+ width: 200px;
+ float: left;   
+}
+
+.offer_icon{
+    width: 40px;
+    float: right;
+    margin-right: 5px;
+}
+
+.farm_icon{
+    width: 40px;
+    float: left;
+    margin-right: 5px;   
+}
+
+.math{
+    float: right; 
+}
+
+.reward{
+    float: right;
+}
+
+#farm_offer_farm{
+    width: 300px;   
+    float: left; 
+    text-align: center;
+}
+
+#farm_offer_logic{
+    width: 200px;
+    float: right;   
+    text-align: right; 
 }
 
 #HappyFarm_sublabel{
@@ -31,20 +67,26 @@ height: 100%;
    margin-left:-17px;
 }
 
-#HappyFarm_button{
+
+
+#farm_offer{
     cursor: pointer;
-    margin-left: -62px;
-    margin-bottom: 100px;
-    padding: 10px;
-    font-size: 24px;
-    color: white;
-    background:rgb(5, 124, 21);
-    border-radius:15px;
-    font-weight: bold;
+color: white;
+font-size:30px;
+background: rgb(5, 124, 21);
+width: 700px;
+height: 40px;
+border-radius:20px;
+margin:auto;
+margin-top: 10px;
+padding:20px;
 }
 
-#HappyFarm_button:hover{
-    border-radius:15px;
-    background: white;
-    color:rgb(5, 124, 21);
+#farm_offer:hover{
+
+background: rgb(5, 124, 21);
+border: solid 3px rgb(3, 77, 13);
+width: 700px;
+height: 40px;
+padding:17px;
 }
