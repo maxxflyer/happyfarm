@@ -69,6 +69,8 @@
     padding-left: 10px;
 }
 
+#login{width: calc( 100% - 400px);}
+
 #beans_counter_label{
 float: left;
 font-size: 35px;
