@@ -34,6 +34,14 @@ class Beanometer extends Component {
 
     render(){
         return ( 
+            <div id="account_container">
+            <div id="account_basket_panel">
+            <div id="basket_mainlabel"><img id="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Basket</div>
+            <div id="account_basket_container">
+            🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🍒 🍑 🍍 🥝 🍅 🍆 🥑 🥒 🌽 🥕 🐃 🐂 🐄 🐎 🐖 🐏 🐑 🐐 🦌 🐕 🐈 🐓 🦃 🐇 🐁 🦂 🐢 🐍 🦎 💩
+            </div>
+            </div>
+
         <div id="flyer">
         <div id="beanstalk_mainlabel">Beanometer</div>
         <img id="beanstalk_scale" src="https://i.imgur.com/NtMRRJC.png"/>
@@ -43,6 +51,7 @@ class Beanometer extends Component {
             <div id="pointer_mainlabel">◄ 0 Beans 🌱</div>
         </div>
          <input  id="gofarm_button" type="button" value="GO FARMING!" onClick={() => this.props.update("HappyFarm")}/>
+        </div>
         </div>
         );
     }

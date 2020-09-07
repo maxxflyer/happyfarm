@@ -1,9 +1,10 @@
 #flyer{
- width: 250px;
- margin: auto;
- margin-top: 0px;
- align: center;
-}
+    width: 200px;
+    float: left;
+   height: 100%;
+    text-align: center;
+    margin-left: 60px;
+   }
 
 #frame_beanstalk{
     border: solid 0px red;
@@ -12,7 +13,7 @@
     margin-left:-6px;
     height: 500px;
     overflow: hidden;
-    width: 450px;
+    width: 450px; 
 }
 
 #beanstalk_scale{
@@ -45,9 +46,46 @@
    
 }
 
+#account_container{
+    width: 100%;
+    height: 100%;
 
+}
 
-#gofarm_button{
+#account_basket_panel{
+    width: calc( ( 100% - 500px ) / 2 - 40px );
+    height: 100%;
+    float:left;
+}
+
+#basket_logo{}
+
+#basket_mainimage{
+float: left;
+width: 40px;
+margin-top: 7px;
+margin-right: 10px;
+}
+
+#basket_mainlabel{
+    float: left;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+#account_basket_container{
+    width: 100%;
+    background: rgb(5, 124, 21);
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 60px;
+    padding: 20px;
+    font-size: 55px;
+    opacity: 50%;
+}
+
+#gofarm_button{ 
     cursor: pointer;
     margin-bottom: 100px;
     padding: 10px;
