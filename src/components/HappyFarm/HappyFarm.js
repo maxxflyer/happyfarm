@@ -68,7 +68,7 @@ class HappyFarm extends Component {
                     <div class="descr">4) Select Menu FARMING</div>
                     <div class="descr">5) Choose your favorite pair and add it in the suggested proportions (Stake)</div>
                     <div class="descr">6) You are ready to farm Beans🌱</div>
-                    <div class="descr_min">🌷<i>more pairs/offers may be added later</i></div>
+                    <div class="descr_min">🌷<i> more pairs/offers may be added later</i></div>
                     <br></br>
                     <div class="descr_min">HappyFarm! Farming together the Farm of the future!</div>
 
