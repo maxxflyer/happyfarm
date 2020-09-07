@@ -16,7 +16,7 @@ class HappyFarm extends Component {
                         <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
                         </div>
                         <div id="farm_offer_farm">
-                        HappyFarm (ACTIVE)
+                        HappyFarm
                         </div>
                         <div id="farm_offer_logic">
                             <div class="reward">+🌱=🌱</div>
@@ -28,7 +28,7 @@ class HappyFarm extends Component {
                         <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
                         </div>
                         <div id="farm_offer_farm">
-                        HappyFarm (NOT ACTIVE)
+                        HappyFarm
                         </div>
                         <div id="farm_offer_logic">
                             <div class="reward">+🌱=🌱</div>
@@ -40,7 +40,7 @@ class HappyFarm extends Component {
                         <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
                         </div>
                         <div id="farm_offer_farm">
-                        HappyFarm (NOT ACTIVE)
+                        HappyFarm
                         </div>
                         <div id="farm_offer_logic">
                             <div class="reward">+🌱=🌱</div>
@@ -52,7 +52,7 @@ class HappyFarm extends Component {
                         <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
                         </div>
                         <div id="farm_offer_farm">
-                        HappyFarm (NOT ACTIVE)
+                        HappyFarm
                         </div>
                         <div id="farm_offer_logic">
                             <div class="reward">+🌱=🌱</div>
