@@ -18,7 +18,7 @@ height: 100%;
 }
 
 #farm_offer_icons{
- width: 200px;
+ width: 50px;
  float: left;   
 }
 
@@ -43,9 +43,9 @@ height: 100%;
 }
 
 #farm_offer_farm{
-    width: 300px;   
+    width: 420px;   
     float: left; 
-    text-align: center;
+    text-align: left;
 }
 
 #farm_offer_logic{
@@ -81,6 +81,32 @@ margin:auto;
 margin-top: 10px;
 padding:20px;
 }
+
+.descr_container{
+    width: 700px;
+    margin:auto;
+    margin-top: 30px;
+}
+
+.descr_title{
+font-size: 40px;
+color: white;
+margin-bottom: 20px;
+}
+.descr{
+font-size: 30px;
+color: white;
+}
+.descr_min{
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    }
+
+    .mini_descr{
+        font-size: 25px;
+        color: white;
+        }
 
 #farm_offer:hover{
 
