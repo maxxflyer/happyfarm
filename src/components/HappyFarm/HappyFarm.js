@@ -70,8 +70,8 @@ class HappyFarm extends Component {
                     <div class="descr">6) You are ready to farm Beans🌱</div>
                     <div class="descr_min"><i>more pairs/offers may be added later</i></div>
                     </div>
-                    <div class="descr_container">
-                    <div class="mini_descr">Beans🌱 are equities of HappyFarm DFO:</div>
+                    <div class="descr_container_dark">
+                    <div class="mini_descr">Beans🌱 are equities of HappyFarm DFO</div>
                     <div class="mini_descr">Paper: <a href="https://cdn.discordapp.com/attachments/751252665085984882/751253034906026126/HAPPYFARM.pdf" target="_blank">Short Paper</a></div>
                     <div class="mini_descr">Beans🌱: <a href="https://uniswap.info/token/0x801f90f81786dc72b4b9d51ab613fbe99e5e4ccd" target="_blank">UNISWAP</a></div>
                     <div class="mini_descr">🚜HappyFarm is an ongoing R&D project</div>
