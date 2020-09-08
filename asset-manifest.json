@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/happyfarm/static/css/main.3fbf3447.chunk.css",
-    "main.js": "/happyfarm/static/js/main.98dd14ab.chunk.js",
-    "main.js.map": "/happyfarm/static/js/main.98dd14ab.chunk.js.map",
+    "main.css": "/happyfarm/static/css/main.38f207c7.chunk.css",
+    "main.js": "/happyfarm/static/js/main.9e239856.chunk.js",
+    "main.js.map": "/happyfarm/static/js/main.9e239856.chunk.js.map",
     "runtime-main.js": "/happyfarm/static/js/runtime-main.0896056b.js",
     "runtime-main.js.map": "/happyfarm/static/js/runtime-main.0896056b.js.map",
     "static/js/2.7c818da1.chunk.js": "/happyfarm/static/js/2.7c818da1.chunk.js",
     "static/js/2.7c818da1.chunk.js.map": "/happyfarm/static/js/2.7c818da1.chunk.js.map",
     "index.html": "/happyfarm/index.html",
-    "precache-manifest.cd8eb34f8044f091f2425a0ccaace95b.js": "/happyfarm/precache-manifest.cd8eb34f8044f091f2425a0ccaace95b.js",
+    "precache-manifest.be4819b931e3310565aea363d889d06a.js": "/happyfarm/precache-manifest.be4819b931e3310565aea363d889d06a.js",
     "service-worker.js": "/happyfarm/service-worker.js",
-    "static/css/main.3fbf3447.chunk.css.map": "/happyfarm/static/css/main.3fbf3447.chunk.css.map",
+    "static/css/main.38f207c7.chunk.css.map": "/happyfarm/static/css/main.38f207c7.chunk.css.map",
     "static/js/2.7c818da1.chunk.js.LICENSE.txt": "/happyfarm/static/js/2.7c818da1.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/happyfarm/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0896056b.js",
     "static/js/2.7c818da1.chunk.js",
-    "static/css/main.3fbf3447.chunk.css",
-    "static/js/main.98dd14ab.chunk.js"
+    "static/css/main.38f207c7.chunk.css",
+    "static/js/main.9e239856.chunk.js"
   ]
 }
