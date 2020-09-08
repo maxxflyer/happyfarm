@@ -43,6 +43,7 @@ class Beanometer extends Component {
     render(){
         return ( 
             <div id="account_container">
+                <div id="account_header">🐻</div>
                 <div class="account_basket_superpanel_left">
                 <div class="account_basket_panel">
                     <div class="basket_mainlabel">Basket</div>
@@ -53,7 +54,7 @@ class Beanometer extends Component {
                 <div class="account_basket_panel">
                     <div class="basket_mainlabel">Stable</div>
                     <div class="account_basket_container">
-            🐃 🐂 🐄 🐎 🐖 🐏 🐑 🐐 🦌 🐕 🐈 🐓 🦃 🐇 🐁 🦂 🐢 🐍 🦎 💩
+            🐃 🐂 🐄 🐎 🐖 🐏 🐑 🐐 🦌 🐕 🐈 🐓 🦃 🐇 🦂 🐢 🐍 🦎 🐝 🐌
                     </div>
                 </div>
                 <div class="account_basket_panel">
@@ -78,13 +79,13 @@ class Beanometer extends Component {
                 <div class="account_basket_panel">
                     <div class="basket_mainlabel">Barn</div>
                     <div class="account_basket_container">
-                    🌱 🌾 🌿 🍀 🌵 🎋 🍄 🌰 🌷 🌹 🍖 🥐 🥔 🍞 🧀 🍯 🥛 🥚 🍷 💩
+                    🌱 🌾 🌿  🌵 🎋 🍄 🌰 🌷 🌹 🍖 🥐 🥔 🍞 🧀 🍯 🥛 🥚 🍷 💩 🐁
                     </div>
                 </div>
                 <div class="account_basket_panel">
                     <div class="basket_mainlabel">Special</div>
                     <div class="account_basket_container">
-                     🍭 🍬 🍫 👛 ☂️🎲 🎨 🎱 🏈 🎈 💎 🎁 💸 👻 💊 💋 👽 💀 💖
+                     🍭 🍬 🍫 👛 ☂️🎲 🎨 📯 🍀 🎈 💎 🎁 💸 👻 💊 💋 👽 💀 🌈 🍂
                     </div>
                 </div>
              
