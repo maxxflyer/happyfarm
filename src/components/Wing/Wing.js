@@ -33,6 +33,24 @@ class Wing extends Component {
          document.getElementById('metamask').style.display="none";
          document.getElementById('hf_account').style.display="block";
          let res = accounts[0].substring(0, 6)+"..."+accounts[0].substring(38);
+         let avatar="🐶";
+         if(res.slice(-1)=="0")avatar="🐶"
+         if(res.slice(-1)=="1")avatar="🐱"
+         if(res.slice(-1)=="2")avatar="🐹"
+         if(res.slice(-1)=="3")avatar="🐸"
+         if(res.slice(-1)=="4")avatar="🐵"
+         if(res.slice(-1)=="5")avatar="🐻"
+         if(res.slice(-1)=="6")avatar="🐼"
+         if(res.slice(-1)=="7")avatar="🐰"
+         if(res.slice(-1)=="8")avatar="🐨"
+         if(res.slice(-1)=="9")avatar="🐯"
+         if(res.slice(-1)=="a")avatar="🦁"
+         if(res.slice(-1)=="b")avatar="🐮"
+         if(res.slice(-1)=="c")avatar="🐷"
+         if(res.slice(-1)=="d")avatar="🐺"
+         if(res.slice(-1)=="e")avatar="🐗"
+         if(res.slice(-1)=="f")avatar="🐔"
+         document.getElementById("wing_avatar").innerHTML = avatar;
          document.getElementById("hf_account_address").innerHTML = res;
          document.getElementById("hf_account_address").setAttribute("jump", accounts[0])
       });
@@ -54,7 +72,7 @@ class Wing extends Component {
         const web3 = new Web3(Web3.givenProvider || "http://localhost:8545")
 
   function jump(){
-    window.open("https://etherscan.io/address/"+document.getElementById("lips_account_address").getAttribute("jump"))
+    window.open("https://etherscan.io/address/"+document.getElementById("hf_account_address").getAttribute("jump"))
   }
 
 

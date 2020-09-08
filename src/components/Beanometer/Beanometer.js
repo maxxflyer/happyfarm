@@ -56,6 +56,12 @@ class Beanometer extends Component {
             🐃 🐂 🐄 🐎 🐖 🐏 🐑 🐐 🦌 🐕 🐈 🐓 🦃 🐇 🐁 🦂 🐢 🐍 🦎 💩
                     </div>
                 </div>
+                <div class="account_basket_panel">
+                    <div class="basket_mainlabel">Love</div>
+                    <div class="account_basket_container">
+                    💔 ❤️ 💘 💝 💖
+                    </div>
+                </div>
                 </div>
 
         <div id="flyer">
@@ -72,13 +78,20 @@ class Beanometer extends Component {
                 <div class="account_basket_panel">
                     <div class="basket_mainlabel">Barn</div>
                     <div class="account_basket_container">
-                    🌱 🌾 🌿 🍀 🌵 🎋 🍄 🌰 🌷 🌹 🥔 💩 🍞 🧀 🍯 🥛 🥚 🍷
+                    🌱 🌾 🌿 🍀 🌵 🎋 🍄 🌰 🌷 🌹 🍖 🥐 🥔 🍞 🧀 🍯 🥛 🥚 🍷 💩
                     </div>
                 </div>
                 <div class="account_basket_panel">
                     <div class="basket_mainlabel">Special</div>
                     <div class="account_basket_container">
-                     🍭 🍬 🍫 🍖 🥐 🎲 🎨 🎱 🏈 🎈 💎 🎁 💸 ⛄️ 💊 🥇 🥈 🥉 🏆 💖
+                     🍭 🍬 🍫 👛 ☂️🎲 🎨 🎱 🏈 🎈 💎 🎁 💸 👻 💊 💋 👽 💀 💖
+                    </div>
+                </div>
+             
+                <div class="account_basket_panel">
+                    <div class="basket_mainlabel">Trophy</div>
+                    <div class="account_basket_container">
+                    🥇 🥈 🥉 🏆 🎩
                     </div>
                 </div>
                 </div>
