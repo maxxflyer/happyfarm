@@ -12,7 +12,11 @@ class Wing extends Component {
       const beans = new web3.eth.Contract(ABI, ADDRESS) 
       let supply = await beans.methods.balanceOf("0x510f0a380c914928386bdA31dC159FcB30Ffa708").call()
       console.log("SUPPLY      "+supply)
-      document.getElementById("beans_counter_label").innerHTML=supply/1000000000000000000 
+      supply=supply/1000000000000000000
+                    let supstr=supply.toString()
+                    console.log("!!"+supstr.indexOf("."))
+                    supstr=supstr.substring(0,supstr.indexOf(".")+3)  
+      document.getElementById("beans_counter_label").innerHTML=supstr
     }
 
     async enable(){
@@ -21,12 +25,16 @@ class Wing extends Component {
          const beans = new web3.eth.Contract(ABI, ADDRESS) 
       let supply = await beans.methods.balanceOf(accounts[0]).call()
       console.log("SUPPLY      "+supply)
-      document.getElementById("beans_counter_label").innerHTML=supply/1000000000000000000
+      supply=supply/1000000000000000000
+                    let supstr=supply.toString()
+                    console.log("!!"+supstr.indexOf("."))
+                    supstr=supstr.substring(0,supstr.indexOf(".")+3)  
+      document.getElementById("beans_counter_label").innerHTML=supstr
          document.getElementById('metamask').style.display="none";
-         document.getElementById('lips_account').style.display="block";
+         document.getElementById('hf_account').style.display="block";
          let res = accounts[0].substring(0, 6)+"..."+accounts[0].substring(38);
-         document.getElementById("lips_account_address").innerHTML = res;
-         document.getElementById("lips_account_address").setAttribute("jump", accounts[0])
+         document.getElementById("hf_account_address").innerHTML = res;
+         document.getElementById("hf_account_address").setAttribute("jump", accounts[0])
       });
     }
     
@@ -35,7 +43,7 @@ class Wing extends Component {
         return (<div id="login">
           <div id="lips_search_panel"><div id="beans_counter_label">0.0</div><div id="beans_counter_image"><img id="lips_search_icon" src="https://i.imgur.com/Hs3uInv.png" onClick={() => this.props.update("Beanometer")}/></div></div>
             <div id="metamask"><div id="connect_label">connect wallet</div><img id="metamask_logo" src="http://hivemuse.com/lips/2/metamask.png" alt="metamask" onClick={this.enable}/></div>
-            <div className="lips_menu" id="lips_account"  onClick={jump}><div id="lips_account_address"></div></div>
+            <div className="hf_menu" id="hf_account"  onClick={jump}><div id="wing_avatar">🐱</div><div id="hf_account_address"></div></div>
             
         </div>);
     }
