@@ -70,15 +70,15 @@ class Beanometer extends Component {
         </div>
         <div class="account_basket_superpanel_right">
                 <div class="account_basket_panel">
-                    <div class="basket_mainlabel"><img class="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Basket</div>
+                    <div class="basket_mainlabel"><img class="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Barn</div>
                     <div class="account_basket_container">
-            🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🍒 🍑 🍍 🥝 🍅 🍆 🥑 🥒 🌽 🥕 
+                    🌱 🌾 🌿 🍀 🌵 🎋 🍄 🌰 🌷 🌹 🥔 💩 🍞 🧀 🥚 🍷
                     </div>
                 </div>
                 <div class="account_basket_panel">
-                    <div class="basket_mainlabel"><img class="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Stable</div>
+                    <div class="basket_mainlabel"><img class="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Special</div>
                     <div class="account_basket_container">
-            🐃 🐂 🐄 🐎 🐖 🐏 🐑 🐐 🦌 🐕 🐈 🐓 🦃 🐇 🐁 🦂 🐢 🐍 🦎 💩
+                    🍯 🥛 🍭 🍬 🍫 🍖 🎲 🎨 🎱 🏈 🥐 ⛄️ 💊 🥇 🥈 🥉 🏆
                     </div>
                 </div>
                 </div>
