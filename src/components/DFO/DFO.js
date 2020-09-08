@@ -16,7 +16,7 @@ class DFO extends Component {
                     let supply = await beans.methods.balanceOf("0x510f0a380c914928386bdA31dC159FcB30Ffa708").call()/1000000000000000000   
                     let supstr2=supply.toString()
                     supstr2=supstr2.substring(0,supstr2.indexOf(".")+3)                                  
-                    document.getElementById("token_label_center").innerHTML="Vault: "+supstr2+"🌱";
+                    document.getElementById("BEANS_amount").innerHTML=supstr2;
 
             })
         }
@@ -26,9 +26,18 @@ class DFO extends Component {
         return ( 
             <div>
                 <div id="DFO_panel">
-<div id="token_label_left">Total Supply: 10000🌱</div>
-<div id="token_label_center">Vault: 🌱</div>
-                </div>        
+                    <div id="dfo_label">🚜 HappyFarm DFO</div>
+                    <div id="dfo_description">Vault</div>
+                    <div className="clear"/>
+                <div id="vault_panel">
+                    <div className="vault_token"><img className="vault_token_icon" src="https://i.imgur.com/8qU1rji.png"></img><div className="vault_amount_label" id="BEANS_amount">5000</div></div>
+                    <div className="vault_token"><img className="vault_token_icon" src="https://www.unifihub.com/assets/img/m4.png"></img><div className="vault_amount_label" id="uSD_amount">5000.00</div></div>
+                    <div className="vault_token"><img className="vault_token_icon" src="https://i.imgur.com/fYu1egI.png"></img><div className="vault_amount_label" id="uSD_amount">0.00</div></div>
+                    <div className="vault_token"><img className="vault_token_icon" src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"></img><div className="vault_amount_label" id="uSD_amount">0.00</div></div>
+                    <div className="vault_token"><img className="vault_token_icon" src="https://i.imgur.com/FPL7c5a.png"></img><div className="vault_amount_label" id="uSD_amount">0.00</div></div>
+                </div>  
+                </div>   
+                     
         <div id="uniswap_frame_container" >
            <iframe id="uniswap_frame" src="https://uniswap.info/account/0x510f0a380c914928386bdA31dC159FcB30Ffa708"></iframe>   
         </div>
