@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f705fb7f5f7b7a4c5be2d02a3d75c46",
+    "revision": "40b2010177d9608a0881075b4ac74784",
     "url": "/happyfarm/index.html"
   },
   {
-    "revision": "c018920a9fefb0c391d0",
+    "revision": "f8eac2ad9407c71ee71a",
     "url": "/happyfarm/static/css/main.53e51cc7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/happyfarm/static/js/2.7c818da1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c018920a9fefb0c391d0",
-    "url": "/happyfarm/static/js/main.27d88be6.chunk.js"
+    "revision": "f8eac2ad9407c71ee71a",
+    "url": "/happyfarm/static/js/main.3430e64a.chunk.js"
   },
   {
     "revision": "be03aa12d03bc93d3ebc",
