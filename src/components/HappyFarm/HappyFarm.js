@@ -7,7 +7,7 @@ class HappyFarm extends Component {
     render(){
         return ( 
         <div>
-                <div id="flyer">
+                <div id="happy_flyer">
                     <div id="HappyFarm_mainlabel">Control Panel</div>
                 </div>
                 <div id="mainpanel">

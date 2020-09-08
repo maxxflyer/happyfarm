@@ -45,13 +45,13 @@ class Beanometer extends Component {
             <div id="account_container">
                 <div class="account_basket_superpanel_left">
                 <div class="account_basket_panel">
-                    <div class="basket_mainlabel"><img class="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Basket</div>
+                    <div class="basket_mainlabel">Basket</div>
                     <div class="account_basket_container">
             🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🍒 🍑 🍍 🥝 🍅 🍆 🥑 🥒 🌽 🥕 
                     </div>
                 </div>
                 <div class="account_basket_panel">
-                    <div class="basket_mainlabel"><img class="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Stable</div>
+                    <div class="basket_mainlabel">Stable</div>
                     <div class="account_basket_container">
             🐃 🐂 🐄 🐎 🐖 🐏 🐑 🐐 🦌 🐕 🐈 🐓 🦃 🐇 🐁 🦂 🐢 🐍 🦎 💩
                     </div>
@@ -70,15 +70,15 @@ class Beanometer extends Component {
         </div>
         <div class="account_basket_superpanel_right">
                 <div class="account_basket_panel">
-                    <div class="basket_mainlabel"><img class="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Barn</div>
+                    <div class="basket_mainlabel">Barn</div>
                     <div class="account_basket_container">
-                    🌱 🌾 🌿 🍀 🌵 🎋 🍄 🌰 🌷 🌹 🥔 💩 🍞 🧀 🥚 🍷
+                    🌱 🌾 🌿 🍀 🌵 🎋 🍄 🌰 🌷 🌹 🥔 💩 🍞 🧀 🍯 🥛 🥚 🍷
                     </div>
                 </div>
                 <div class="account_basket_panel">
-                    <div class="basket_mainlabel"><img class="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Special</div>
+                    <div class="basket_mainlabel">Special</div>
                     <div class="account_basket_container">
-                    🍯 🥛 🍭 🍬 🍫 🍖 🎲 🎨 🎱 🏈 🥐 ⛄️ 💊 🥇 🥈 🥉 🏆
+                     🍭 🍬 🍫 🍖 🥐 🎲 🎨 🎱 🏈 🎈 💎 🎁 💸 ⛄️ 💊 🥇 🥈 🥉 🏆 💖
                     </div>
                 </div>
                 </div>
