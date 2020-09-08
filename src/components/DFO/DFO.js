@@ -3,7 +3,7 @@ import Web3 from 'web3'
 import './css.css';
 
 
-class Beans extends Component {
+class DFO extends Component {
 
     componentDidMount() {
         this.loadBlockchainData()
@@ -13,16 +13,10 @@ class Beans extends Component {
         async loadBlockchainData() {
             window.ethereum.enable().then(async function (accounts) {   
                 const beans = new web3.eth.Contract(ABI, ADDRESS) 
-                    let supply = await beans.methods.balanceOf("0xdA1Ec8F2Fb47e905079663bCEA69f1a2B010f2D3").call()/1000000000000000000   
-                    let supstr=supply.toString()
-                    supstr=supstr.substring(0,supstr.indexOf(".")+3)   
-                    document.getElementById("token_label_right").innerHTML="Master_Wallet: "+supstr+"🌱";
-
-
-                    supply = await beans.methods.balanceOf("0x510f0a380c914928386bdA31dC159FcB30Ffa708").call()/1000000000000000000   
+                    let supply = await beans.methods.balanceOf("0x510f0a380c914928386bdA31dC159FcB30Ffa708").call()/1000000000000000000   
                     let supstr2=supply.toString()
                     supstr2=supstr2.substring(0,supstr2.indexOf(".")+3)                                  
-                    document.getElementById("token_label_center").innerHTML="Circulating Supply: >"+(10000-(parseInt(supstr)+parseInt(supstr2)))+"🌱";
+                    document.getElementById("token_label_center").innerHTML="Vault: "+supstr2+"🌱";
 
             })
         }
@@ -33,13 +27,8 @@ class Beans extends Component {
             <div>
                 <div id="token_panel">
 <div id="token_label_left">Total Supply: 10000🌱</div>
-<div id="token_label_center">Circulating Supply: ∼410🌱</div>
-<div id="token_label_right">Master_Wallet: 🌱</div>
-<div id="token_label_center_right">Farming 350🌱</div>
+<div id="token_label_center">Vault: 🌱</div>
                 </div>
-        <div id="uniswap_frame_container" >
-           <iframe id="uniswap_frame" src="https://uniswap.info/pair/0xe05252ff06de5cf6efc13074072365ce8d64f0d2"></iframe>   
-        </div>
         </div>
         );
     }
@@ -52,4 +41,4 @@ class Beans extends Component {
         const web3 = new Web3(Web3.givenProvider || "http://localhost:8545")
 
 
-export default Beans
+export default DFO

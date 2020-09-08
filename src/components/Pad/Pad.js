@@ -3,6 +3,7 @@ import Splash from '../Splash/Splash';
 import Beanometer from '../Beanometer/Beanometer';
 import HappyFarm from '../HappyFarm/HappyFarm';
 import Beans from '../Beans/Beans';
+import DFO from '../DFO/DFO';
 import './css.css'; 
 
 
@@ -56,6 +57,14 @@ class Pad extends React.Component {
           <div id="superpad">
             <div id="beans_pad">
               <Beans></Beans>
+            </div>           
+          </div>
+        );
+        if(this.props.panel.panel=="DFO")
+        return (
+          <div id="superpad">
+            <div id="DFO_pad">
+              <DFO></DFO>
             </div>           
           </div>
         );
