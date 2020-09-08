@@ -28,6 +28,25 @@ class Beanometer extends Component {
                     document.getElementById("pointer_mainlabel").innerHTML="◄ "+supstr+"<br>&nbsp;&nbsp;&nbsp; Beans";
                     document.getElementById("frame_beanstalk").style="top: -"+(supply_beanstalk+4)+"px;";
                     document.getElementById("beanstalk").style="margin-top: -"+(500-(supply_beanstalk))+"px;";
+                    let avatar="👻";
+                    let res=accounts[0]
+         if(res.slice(-1)=="0")avatar="🐶"
+         if(res.slice(-1)=="1")avatar="🐱"
+         if(res.slice(-1)=="2")avatar="🐹"
+         if(res.slice(-1)=="3")avatar="🐸"
+         if(res.slice(-1)=="4")avatar="🐵"
+         if(res.slice(-1)=="5")avatar="🐻"
+         if(res.slice(-1)=="6")avatar="🐼"
+         if(res.slice(-1)=="7")avatar="🐰"
+         if(res.slice(-1)=="8")avatar="🐨"
+         if(res.slice(-1)=="9")avatar="🐯"
+         if(res.slice(-1)=="a")avatar="🦁"
+         if(res.slice(-1)=="b")avatar="🐮"
+         if(res.slice(-1)=="c")avatar="🐷"
+         if(res.slice(-1)=="d")avatar="🐺"
+         if(res.slice(-1)=="e")avatar="🐗"
+         if(res.slice(-1)=="f")avatar="🐔"
+         document.getElementById("account_header").innerHTML = avatar;
                 }else{
                     let supply = await beans.methods.balanceOf("0x510f0a380c914928386bdA31dC159FcB30Ffa708").call()
                     let supply_beanstalk=getBenstalk(supply)    
@@ -35,6 +54,7 @@ class Beanometer extends Component {
                     let supstr=supply.toString()
                     console.log("!!"+supstr.indexOf("."))
                     supstr=supstr.substring(0,supstr.indexOf(".")+3) 
+                    document.getElementById("account_header").innerHTML = "👻";
                     document.getElementById("pointer_mainlabel").innerHTML="◄ "+supstr+"<br>&nbsp;&nbsp;&nbsp; Beans";
                 }
             })
@@ -43,7 +63,7 @@ class Beanometer extends Component {
     render(){
         return ( 
             <div id="account_container">
-                <div id="account_header">🐻</div>
+                <div id="account_header">👻</div>
                 <div class="account_basket_superpanel_left">
                 <div class="account_basket_panel">
                     <div class="basket_mainlabel">Basket</div>
