@@ -1,0 +1,11 @@
+
+#uniswap_frame_container{
+   width: 100%;
+   height: 2000px; 
+}
+
+#uniswap_frame{
+    width: 100%;
+    height: 2000px; 
+    border-radius: 20px;
+ }

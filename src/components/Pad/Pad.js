@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Splash from '../Splash/Splash';
 import Beanometer from '../Beanometer/Beanometer';
 import HappyFarm from '../HappyFarm/HappyFarm';
+import Beans from '../Beans/Beans';
 import './css.css'; 
 
 
@@ -47,6 +48,14 @@ class Pad extends React.Component {
           <div id="superpad">
             <div id="pad">
               <HappyFarm></HappyFarm>
+            </div>           
+          </div>
+        );
+        if(this.props.panel.panel=="Beans")
+        return (
+          <div id="superpad">
+            <div id="beans_pad">
+              <Beans></Beans>
             </div>           
           </div>
         );
