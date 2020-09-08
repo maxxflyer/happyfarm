@@ -21,8 +21,11 @@ class Beans extends Component {
 
                     supply = await beans.methods.balanceOf("0x510f0a380c914928386bdA31dC159FcB30Ffa708").call()/1000000000000000000   
                     let supstr2=supply.toString()
-                    supstr2=supstr2.substring(0,supstr2.indexOf(".")+3)                                  
-                    document.getElementById("token_label_center").innerHTML="Circulating Supply: >"+(10000-(parseInt(supstr)+parseInt(supstr2)))+"🌱";
+                    supstr2=supstr2.substring(0,supstr2.indexOf(".")+3)            
+                    let circ_sup=(10000-(parseInt(supstr)+parseInt(supstr2))) 
+                    let farming=303-(circ_sup-584)                   
+                    document.getElementById("token_label_center").innerHTML="Circulating Supply: "+(10000-(parseInt(supstr)+parseInt(supstr2)))+"🌱";
+                    document.getElementById("token_label_center_right").innerHTML="Farming: "+farming+"🌱";
 
             })
         }
