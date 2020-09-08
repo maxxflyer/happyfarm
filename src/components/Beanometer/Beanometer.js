@@ -20,14 +20,22 @@ class Beanometer extends Component {
           
                 if(accounts[0]){
                     let supply = await beans.methods.balanceOf(accounts[0]).call()
-                    let supply_beanstalk=getBenstalk(supply)                  
-                    document.getElementById("pointer_mainlabel").innerHTML="◄ "+supply/1000000000000000000+"<br>&nbsp;&nbsp;&nbsp; Beans";
+                    let supply_beanstalk=getBenstalk(supply)     
+                    supply=supply/1000000000000000000
+                    let supstr=supply.toString()
+                    console.log("!!"+supstr.indexOf("."))
+                    supstr=supstr.substring(0,supstr.indexOf(".")+3)            
+                    document.getElementById("pointer_mainlabel").innerHTML="◄ "+supstr+"<br>&nbsp;&nbsp;&nbsp; Beans";
                     document.getElementById("frame_beanstalk").style="top: -"+(supply_beanstalk+4)+"px;";
                     document.getElementById("beanstalk").style="margin-top: -"+(500-(supply_beanstalk))+"px;";
                 }else{
                     let supply = await beans.methods.balanceOf("0x510f0a380c914928386bdA31dC159FcB30Ffa708").call()
                     let supply_beanstalk=getBenstalk(supply)    
-                    document.getElementById("pointer_mainlabel").innerHTML="◄ "+supply/1000000000000000000+"<br>&nbsp;&nbsp;&nbsp; Beans";
+                    supply=supply/1000000000000000000
+                    let supstr=supply.toString()
+                    console.log("!!"+supstr.indexOf("."))
+                    supstr=supstr.substring(0,supstr.indexOf(".")+3) 
+                    document.getElementById("pointer_mainlabel").innerHTML="◄ "+supstr+"<br>&nbsp;&nbsp;&nbsp; Beans";
                 }
             })
         }
@@ -35,12 +43,20 @@ class Beanometer extends Component {
     render(){
         return ( 
             <div id="account_container">
-            <div id="account_basket_panel">
-            <div id="basket_mainlabel"><img id="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Basket</div>
-            <div id="account_basket_container">
-            🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🍒 🍑 🍍 🥝 🍅 🍆 🥑 🥒 🌽 🥕 🐃 🐂 🐄 🐎 🐖 🐏 🐑 🐐 🦌 🐕 🐈 🐓 🦃 🐇 🐁 🦂 🐢 🐍 🦎 💩
-            </div>
-            </div>
+                <div id="account_basket_superpanel">
+                <div id="account_basket_panel">
+                    <div id="basket_mainlabel"><img id="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Basket</div>
+                    <div id="account_basket_container">
+            🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🍒 🍑 🍍 🥝 🍅 🍆 🥑 🥒 🌽 🥕 
+                    </div>
+                </div>
+                <div id="account_basket_panel">
+                    <div id="basket_mainlabel"><img id="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Stable</div>
+                    <div id="account_basket_container">
+            🐃 🐂 🐄 🐎 🐖 🐏 🐑 🐐 🦌 🐕 🐈 🐓 🦃 🐇 🐁 🦂 🐢 🐍 🦎 💩
+                    </div>
+                </div>
+                </div>
 
         <div id="flyer">
         <div id="beanstalk_mainlabel">Beanometer</div>
