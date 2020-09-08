@@ -40,3 +40,10 @@
    float:right;
    margin-right: 20px;
 }
+
+#DFO_panel{
+   background: rgb(5, 124, 21);
+   height: 400px;
+   padding: 20px;
+   border-radius:20px;
+}

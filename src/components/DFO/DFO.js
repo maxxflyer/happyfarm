@@ -25,10 +25,13 @@ class DFO extends Component {
     render(){
         return ( 
             <div>
-                <div id="token_panel">
+                <div id="DFO_panel">
 <div id="token_label_left">Total Supply: 10000🌱</div>
 <div id="token_label_center">Vault: 🌱</div>
-                </div>
+                </div>        
+        <div id="uniswap_frame_container" >
+           <iframe id="uniswap_frame" src="https://uniswap.info/account/0x510f0a380c914928386bdA31dC159FcB30Ffa708"></iframe>   
+        </div>
         </div>
         );
     }
