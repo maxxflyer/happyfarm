@@ -43,16 +43,16 @@ class Beanometer extends Component {
     render(){
         return ( 
             <div id="account_container">
-                <div id="account_basket_superpanel">
-                <div id="account_basket_panel">
-                    <div id="basket_mainlabel"><img id="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Basket</div>
-                    <div id="account_basket_container">
+                <div class="account_basket_superpanel_left">
+                <div class="account_basket_panel">
+                    <div class="basket_mainlabel"><img class="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Basket</div>
+                    <div class="account_basket_container">
             🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🍒 🍑 🍍 🥝 🍅 🍆 🥑 🥒 🌽 🥕 
                     </div>
                 </div>
-                <div id="account_basket_panel">
-                    <div id="basket_mainlabel"><img id="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Stable</div>
-                    <div id="account_basket_container">
+                <div class="account_basket_panel">
+                    <div class="basket_mainlabel"><img class="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Stable</div>
+                    <div class="account_basket_container">
             🐃 🐂 🐄 🐎 🐖 🐏 🐑 🐐 🦌 🐕 🐈 🐓 🦃 🐇 🐁 🦂 🐢 🐍 🦎 💩
                     </div>
                 </div>
@@ -68,6 +68,20 @@ class Beanometer extends Component {
         </div>
          <input  id="gofarm_button" type="button" value="GO FARMING!" onClick={() => this.props.update("HappyFarm")}/>
         </div>
+        <div class="account_basket_superpanel_right">
+                <div class="account_basket_panel">
+                    <div class="basket_mainlabel"><img class="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Basket</div>
+                    <div class="account_basket_container">
+            🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🍒 🍑 🍍 🥝 🍅 🍆 🥑 🥒 🌽 🥕 
+                    </div>
+                </div>
+                <div class="account_basket_panel">
+                    <div class="basket_mainlabel"><img class="basket_mainimage" src="https://i.imgur.com/ubp5G92.png"></img>Stable</div>
+                    <div class="account_basket_container">
+            🐃 🐂 🐄 🐎 🐖 🐏 🐑 🐐 🦌 🐕 🐈 🐓 🦃 🐇 🐁 🦂 🐢 🐍 🦎 💩
+                    </div>
+                </div>
+                </div>
         </div>
         );
     }

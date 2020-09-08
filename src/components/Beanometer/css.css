@@ -3,7 +3,7 @@
     float: left;
    height: 100%;
     text-align: center;
-    margin-left: 60px;
+    margin-left: 130px;
    }
 
 #frame_beanstalk{
@@ -53,13 +53,20 @@
 }
 
 
-#account_basket_superpanel{
+.account_basket_superpanel_left{
     width: calc( ( 100% - 500px ) / 2 - 40px );
     height: 100%;
  float: left;
 }
 
-#account_basket_panel{
+.account_basket_superpanel_right{
+    width: calc( ( 100% - 500px ) / 2 - 40px );
+    height: 100%;
+ float: right;
+ margin-right: 40px;
+}
+
+.account_basket_panel{
 
     height: 100%;
  
@@ -67,21 +74,21 @@
 
 #basket_logo{}
 
-#basket_mainimage{
+.basket_mainimage{
 float: left;
 width: 40px;
 margin-top: 7px;
 margin-right: 10px;
 }
 
-#basket_mainlabel{
+.basket_mainlabel{
 
     font-family: 'Oleo Script Swash Caps', cursive;
     color: white;
     font-size: 40px;
 }
 
-#account_basket_container{
+.account_basket_container{
     width: 100%;
     background: rgb(5, 124, 21);
     height: 100%;
@@ -103,7 +110,7 @@ margin-right: 10px;
     font-weight: bold;
     width: 210px;
     position: relative;
-    top: -480px;
+    top: -400px;
 
 }
 
@@ -111,7 +118,7 @@ margin-right: 10px;
     font-family: 'Oleo Script Swash Caps', cursive;
     color: white;
     font-size: 40px;
-
+margin-bottom: 40px;
 }
 
 #HappyFarm_sublabel{
