@@ -117,40 +117,8 @@ class HappyFarm extends Component {
                             <img class="offer_icon" src="https://i.imgur.com/FPL7c5a.png"/>
                         </div>
                     </div>
-                    <div id="farm_offer_disabled">
-                        <div id="farm_offer_icons">
-                        <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
-                        </div>
-                        <div id="farm_offer_farm">
-                        HappyFarm
-                        </div>
-                        <div id="farm_offer_logic">
-                            <div class="reward">🐄+🌾=💩</div>
-                        </div>
-                    </div>
-                    <div id="farm_offer_disabled">
-                        <div id="farm_offer_icons">
-                        <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
-                        </div>
-                        <div id="farm_offer_farm">
-                        HappyFarm
-                        </div>
-                        <div id="farm_offer_logic">
-                            <div class="reward">💩+🌱=🌱</div>
-                        </div>
-                    </div>
-                    <div id="farm_offer_disabled">
-                        <div id="farm_offer_icons">
-                        <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
-                        </div>
-                        <div id="farm_offer_farm">
-                        HappyFarm
-                        </div>
-                        <div id="farm_offer_logic">
-                            <div class="reward">+🌱+💩=🌱🌱</div>
-                            <img class="offer_icon" src="https://i.imgur.com/FPL7c5a.png"/>
-                        </div>
-                    </div>
+                    
+                    
                     <br></br>
                     <div class="descr_container">
                     <div class="descr_title">HOW TO FARM Beans🌱:</div>
