@@ -56,7 +56,7 @@ class DFO extends Component {
                     <div id="dfo_header">
                         <div id="dfo_label">🚜 HappyFarm DFO</div>
                         <div id="dfo_mini_panel">
-                        <input id="proposal_button" type="button" value="PROPOSAL"  onClick={jump}></input><br></br>
+                        <input id="proposal_button" type="button" value="💎 PROPOSAL"  onClick={jump}></input><br></br>
                         QUORUM: 18% - CAP: 22%
                         </div>
                     </div>
