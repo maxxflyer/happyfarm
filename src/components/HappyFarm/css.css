@@ -40,13 +40,27 @@
 }
 
 #farm_offer_farm{
-    width: 420px;   
+    width: 320px;   
     float: left; 
     text-align: left;
 }
 
+#farm_offer_disabled{
+    cursor: pointer;
+    color: white;
+    font-size:30px;
+    background: rgb(5, 124, 21);
+    width: 700px;
+    height: 40px;
+    border-radius:20px;
+    margin:auto;
+    margin-top: 10px;
+    padding:20px;
+   opacity: 50%;
+}
+
 #farm_offer_logic{
-    width: 200px;
+    width: 300px;
     float: right;   
     text-align: right; 
 }

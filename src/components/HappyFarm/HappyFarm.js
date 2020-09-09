@@ -8,7 +8,7 @@ class HappyFarm extends Component {
         return ( 
         <div>
                 <div id="happy_flyer">
-                    <div id="HappyFarm_mainlabel">Control Panel</div>
+                    <div id="HappyFarm_mainlabel">Farming</div>
                 </div>
                 <div id="mainpanel">
                     <div id="farm_offer">
@@ -56,6 +56,40 @@ class HappyFarm extends Component {
                         </div>
                         <div id="farm_offer_logic">
                             <div class="reward">+🌱=🌱</div>
+                            <img class="offer_icon" src="https://i.imgur.com/FPL7c5a.png"/>
+                        </div>
+                    </div>
+                    <div id="farm_offer_disabled">
+                        <div id="farm_offer_icons">
+                        <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
+                        </div>
+                        <div id="farm_offer_farm">
+                        HappyFarm
+                        </div>
+                        <div id="farm_offer_logic">
+                            <div class="reward">🐄+🌾=💩</div>
+                        </div>
+                    </div>
+                    <div id="farm_offer_disabled">
+                        <div id="farm_offer_icons">
+                        <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
+                        </div>
+                        <div id="farm_offer_farm">
+                        HappyFarm
+                        </div>
+                        <div id="farm_offer_logic">
+                            <div class="reward">💩+🌱=🌱</div>
+                        </div>
+                    </div>
+                    <div id="farm_offer_disabled">
+                        <div id="farm_offer_icons">
+                        <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
+                        </div>
+                        <div id="farm_offer_farm">
+                        HappyFarm
+                        </div>
+                        <div id="farm_offer_logic">
+                            <div class="reward">+🌱+💩=🌱🌱</div>
                             <img class="offer_icon" src="https://i.imgur.com/FPL7c5a.png"/>
                         </div>
                     </div>
