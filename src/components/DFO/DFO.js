@@ -54,7 +54,7 @@ class DFO extends Component {
             <div>
                 <div id="DFO_panel">
                     <div id="dfo_header">
-                        <div id="dfo_label">🚜 HappyFarm DFO</div>
+                        <div id="dfo_label"  onClick={() => this.props.update("HappyFarm")}>🚜 HappyFarm DFO</div>
                         <div id="dfo_mini_panel">
                         <input id="proposal_button" type="button" value="💎 PROPOSAL"  onClick={jump}></input><br></br>
                         QUORUM: 18% - CAP: 22%

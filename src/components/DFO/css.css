@@ -84,6 +84,7 @@
 .xlink{
    color: white;
    text-decoration: none;
+   float: right;
 }
 
 .clear{clear:both;}
@@ -95,9 +96,9 @@
    float: left;
 }
 
-#dfo_label{font-size: 70px; color: white;font-family: 'Oleo Script Swash Caps', cursive; float: left;}
+#dfo_label{font-size: 70px; color: white;font-family: 'Oleo Script Swash Caps', cursive; float: left; cursor:pointer;}
 
-#dfo_description{float: right; margin-top: 20px;margin-right: 10px; font-size: 40px; color: white;font-family: 'Oleo Script Swash Caps', cursive;}
+#dfo_description{with: 100%;margin-top: 20px;margin-right: 10px; font-size: 40px; color: white;font-family: 'Oleo Script Swash Caps', cursive;}
 
 .vault_amount_label{float: left; margin-left: 10px;}
 
@@ -106,6 +107,14 @@
 .vault_token_icon{
    width: 40px;
    cursor: pointer;
+
+}
+
+.DFO_tab_icon{
+   width: 40px;
+   float: left;
+   margin-right: 10px;
+   margin-left: 10px;
 }
 
 #dfo_mini_panel{

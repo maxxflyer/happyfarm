@@ -7,7 +7,7 @@ class Logo extends Component {
     render(){
         return (
         <div id="lips" opacity="1" >
-            <img id="lips_logo" src="https://i.imgur.com/BmHURGw.png" alt="happyfarm" /><div id="lips_label">HappyFarm</div><div id="menu_button">MENU</div>
+            <img id="lips_logo" src="https://i.imgur.com/BmHURGw.png" alt="happyfarm"   onClick={() => this.props.update("HappyFarm")}/><div id="lips_label">HappyFarm</div><div id="menu_button">MENU</div>
             <div id="lips_menu">
                 <div className="menu_row">
                 <div className="lips_menu_link lips_dir_button float_left" href="https://dapp.dfohub.com/"    onClick={() => this.props.update("DFO")}>DFO<br></br><img className="lips_dir_icon" src="https://i.imgur.com/XYKQ1X5.png"/></div>
