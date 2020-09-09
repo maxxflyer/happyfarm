@@ -24,6 +24,13 @@ height: 300px;
     text-align: center;
 }
 
+.wallet_token_icon{
+    width: 30px;
+    float: left;
+    margin-right: 5px;
+}
+
+
 #wallet_panel{
     width: calc( ( 100% - 860px ) / 2 + 50px ); 
     float: right;
@@ -35,13 +42,15 @@ text-align:right;
 float: right;
     }
 
+
+
 #wallet_board{
     font-family: 'Arial';
-    cursor: pointer;
+
     color: white;
     font-size:30px;
     background: rgb(5, 124, 21);
-    width: calc( 100% - 50px );
+    width: calc( 100% - 30px );
     height: 300px;
     border-radius: 20px;
     /* margin-left: 40px; */
@@ -50,9 +59,25 @@ float: right;
     float: right;
 }
 
+.wallet_amount_label{
+    font-size: 25px;
+    margin-left: 5px;
+    float: left;
+}
+
+.wallet_icon{float: left; font-size: 23px; cursor: pointer;}
+
+.wallet_column{
+    width: calc( 50% - 30px ); 
+    float: left;
+height: 100%;
+color: white;
+font-size: 20px;
+text-align:left;
+padding:10px;
+    }
+
 #inner_wallet_board{
-   
-    cursor: pointer;
     color: white;
     font-size:30px;
     background: #2da841;
@@ -213,5 +238,5 @@ padding:17px;
     color: white;
     font-size: 30px;
     float: left;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
  }

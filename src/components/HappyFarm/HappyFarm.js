@@ -146,13 +146,19 @@ class HappyFarm extends Component {
                 Wallet 👛
                     <div id="wallet_board">
                     <div id="inner_wallet_board">
-                    <div id="vault_panel">
-                    <div className="wallet_token"  onClick={() => this.props.update("Beans")}><img className="vault_token_icon" src="https://i.imgur.com/8qU1rji.png"></img><div className="vault_amount_label" id="beans_amount">5000</div></div>
-                    <div className="wallet_token"><a href="https://etherscan.io/token/0x44086035439E676c02D411880FcCb9837CE37c57" target="_blank"><img className="vault_token_icon" src="https://www.unifihub.com/assets/img/m4.png"></img></a><div className="vault_amount_label" id="usd_amount">0.00</div></div>
-                    <div className="wallet_token"><a href="https://etherscan.io/token/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5" target="_blank"><img className="vault_token_icon" src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"></img></a><div className="vault_amount_label" id="unifi_amount">0.00</div></div>
-                    <div className="wallet_token"><a href="https://etherscan.io/token/0x34612903Db071e888a4dADcaA416d3EE263a87b9" target="_blank"><img className="vault_token_icon" src="https://i.imgur.com/fYu1egI.png"></img></a><div className="vault_amount_label" id="arte_amount">0.00</div></div>
-                    <div className="wallet_token"><a href="https://etherscan.io/" target="_blank"><img className="vault_token_icon" src="https://i.imgur.com/FPL7c5a.png"></img></a><div className="vault_amount_label" id="eth_amount">0.00</div></div>
-                </div>  
+                    <div className="wallet_column">
+                        <div className="wallet_token"  onClick={() => this.props.update("Beans")}><img className="wallet_token_icon" src="https://i.imgur.com/8qU1rji.png"></img><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
+                        <div className="wallet_token"><a href="https://etherscan.io/token/0x44086035439E676c02D411880FcCb9837CE37c57" target="_blank"><img className="wallet_token_icon" src="https://www.unifihub.com/assets/img/m4.png"></img></a><div className="wallet_amount_label" id="usd_amount">0.00</div></div>
+                        <div className="wallet_token"><a href="https://etherscan.io/token/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5" target="_blank"><img className="wallet_token_icon" src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"></img></a><div className="wallet_amount_label" id="unifi_amount">0.00</div></div>
+                        <div className="wallet_token"><a href="https://etherscan.io/token/0x34612903Db071e888a4dADcaA416d3EE263a87b9" target="_blank"><img className="wallet_token_icon" src="https://i.imgur.com/fYu1egI.png"></img></a><div className="wallet_amount_label" id="arte_amount">0.00</div></div>
+                        <div className="wallet_token"><a href="https://etherscan.io/" target="_blank"><img className="wallet_token_icon" src="https://i.imgur.com/FPL7c5a.png"></img></a><div className="wallet_amount_label" id="eth_amount">0.00</div></div>
+                    </div>  
+                    <div className="wallet_column">
+                        <div className="wallet_token "  onClick={() => this.props.update("Beans")}><div className="wallet_icon">🌾</div><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
+                        <div className="wallet_token"  onClick={() => this.props.update("Beans")}><div className="wallet_icon">🐄</div><div className="wallet_amount_label" id="beans_amount">0</div></div>
+                        <div className="wallet_token"  onClick={() => this.props.update("Beans")}><div className="wallet_icon">💩</div><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
+
+                       </div>  
                     </div>
                     </div>
                 </div>
