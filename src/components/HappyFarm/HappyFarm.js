@@ -54,7 +54,7 @@ class HappyFarm extends Component {
         return ( 
         <div>
             <div id="instafarm_panel">
-            🦍 InstaFarm!
+             🦍 InstaFarm!
                     <div id="instafarm_board">
                         <br></br>
                         <br></br>
@@ -69,7 +69,7 @@ class HappyFarm extends Component {
                     <div id="HappyFarm_mainlabel">🌾 Farming 🌾</div>
                
                 <div id="mainpanel">
-                    <div id="farm_offer">
+                    <div id="farm_offer" onClick={() => jump2()}>
                         <div id="farm_offer_icons">
                         <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
                         </div>
@@ -81,7 +81,7 @@ class HappyFarm extends Component {
                             <img class="offer_icon" src="https://www.unifihub.com/assets/img/m4.png"/>
                         </div>
                     </div>
-                    <div id="farm_offer">
+                    <div id="farm_offer" onClick={() => jump2()}>
                         <div id="farm_offer_icons">
                         <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
                         </div>
@@ -93,7 +93,7 @@ class HappyFarm extends Component {
                             <img class="offer_icon" src="https://i.imgur.com/fYu1egI.png"/>
                         </div>
                     </div>
-                    <div id="farm_offer">
+                    <div id="farm_offer" onClick={() => jump2()}>
                         <div id="farm_offer_icons">
                         <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
                         </div>
@@ -105,7 +105,7 @@ class HappyFarm extends Component {
                             <img class="offer_icon" src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"/>
                         </div>
                     </div>
-                    <div id="farm_offer">
+                    <div id="farm_offer" onClick={() => jump2()}>
                         <div id="farm_offer_icons">
                         <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
                         </div>
@@ -143,8 +143,8 @@ class HappyFarm extends Component {
                 </div>
                 </div>
                 <div id="wallet_panel">
-                Wallet 👛
-                    <div id="wallet_board">
+                Wallet 👛 
+                     <div id="wallet_board">
                     <div id="inner_wallet_board">
                     <div className="wallet_column">
                         <div className="wallet_token"  onClick={() => this.props.update("Beans")}><img className="wallet_token_icon" src="https://i.imgur.com/8qU1rji.png"></img><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
@@ -177,5 +177,10 @@ class HappyFarm extends Component {
         let ARTE="0x34612903Db071e888a4dADcaA416d3EE263a87b9"
 
         const web3 = new Web3(Web3.givenProvider || "http://localhost:8545")
+
+
+        function jump2(){
+            window.open("https://dapp.dfohub.com/?addr=0x703De1282c0390Eb6AF741Ac6A5C8eF88161cae3")
+          }
 
 export default HappyFarm
