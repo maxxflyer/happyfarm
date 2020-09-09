@@ -53,7 +53,13 @@ class DFO extends Component {
         return ( 
             <div>
                 <div id="DFO_panel">
-                    <div id="dfo_label">🚜 HappyFarm DFO</div>
+                    <div id="dfo_header">
+                        <div id="dfo_label">🚜 HappyFarm DFO</div>
+                        <div id="dfo_mini_panel">
+                        <input id="proposal_button" type="button" value="PROPOSAL"  onClick={jump}></input><br></br>
+                        QUORUM: 18% - CAP: 22%
+                        </div>
+                    </div>
                     <div id="dfo_description"><a className="xlink" href="https://etherscan.io/tokenholdings?a=0x510f0a380c914928386bda31dc159fcb30ffa708" target="_blank">Vault 🗻</a></div>
                     <div className="clear"/>
                 <div id="vault_panel">
@@ -83,5 +89,8 @@ class DFO extends Component {
 
         const web3 = new Web3(Web3.givenProvider || "http://localhost:8545")
 
+        function jump(){
+            window.open("https://dapp.dfohub.com/?addr=0x703De1282c0390Eb6AF741Ac6A5C8eF88161cae3")
+          }
 
 export default DFO
