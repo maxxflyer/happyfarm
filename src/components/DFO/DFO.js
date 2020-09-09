@@ -52,7 +52,7 @@ class DFO extends Component {
             <div>
                 <div id="DFO_panel">
                     <div id="dfo_label">🚜 HappyFarm DFO</div>
-                    <div id="dfo_description">Vault 🗻</div>
+                    <div id="dfo_description"><a className="xlink" href="https://etherscan.io/tokenholdings?a=0x510f0a380c914928386bda31dc159fcb30ffa708" target="_blank">Vault 🗻</a></div>
                     <div className="clear"/>
                 <div id="vault_panel">
                     <div className="vault_token"><a href="https://etherscan.io/token/0x801F90f81786dC72B4b9d51Ab613fbe99e5E4cCD" target="_blank"><img className="vault_token_icon" src="https://i.imgur.com/8qU1rji.png"></img></a><div className="vault_amount_label" id="beans_amount">5000</div></div>

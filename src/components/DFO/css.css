@@ -56,6 +56,11 @@
    border-radius:15px;
 }
 
+.xlink{
+   color: white;
+   text-decoration: none;
+}
+
 .clear{clear:both;}
 
 .vault_token{
