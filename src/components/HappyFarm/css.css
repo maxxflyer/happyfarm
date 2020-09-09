@@ -1,11 +1,80 @@
+#instafarm_panel{
+width: calc( ( 100% - 700px ) / 2 ); 
+margin-right: 20px;
+color: white;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-size: 30px;
+text-align:left;
+float: left;
+height: 300px;
+}
+
+#instafarm_board{
+    cursor: pointer;
+    color: white;
+    font-size:20px;
+    background: rgb(5, 124, 21);
+    width: calc( 100% - 40px );
+    height: 40px;
+    border-radius:20px;
+    float: left;
+    margin-top: 10px;
+    padding:20px;
+    height: 300px;
+    text-align: center;
+}
+
+#wallet_panel{
+    width: calc( ( 100% - 860px ) / 2 + 50px ); 
+    float: right;
+height: 300px;
+color: white;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-size: 30px;
+text-align:right;
+float: right;
+    }
+
+#wallet_board{
+    font-family: 'Arial';
+    cursor: pointer;
+    color: white;
+    font-size:30px;
+    background: rgb(5, 124, 21);
+    width: calc( 100% - 50px );
+    height: 300px;
+    border-radius: 20px;
+    /* margin-left: 40px; */
+    margin-top: 10px;
+    padding: 10px;
+    float: right;
+}
+
+#inner_wallet_board{
+   
+    cursor: pointer;
+    color: white;
+    font-size:30px;
+    background: #2da841;
+    width: calc( 100% - 21px );
+    height: calc( 100% - 21px );
+    border-radius: 20px;
+    /* margin-left: 40px; */
+    padding: 10px;
+    float: right; 
+}
+
 #happy_flyer{
-    width: 100%;
+    width: 700px;
+    float: left;
     text-align: center;
 }
 
 #mainpanel{
-    width: 100%;
+    width: 700px;
     height: 1000px;
+    float: left;
+
 }
 
 #HappyFarm_mainlabel{
@@ -40,7 +109,7 @@
 }
 
 #farm_offer_farm{
-    width: 320px;   
+    width: 300px;   
     float: left; 
     text-align: left;
 }
@@ -50,7 +119,7 @@
     color: white;
     font-size:30px;
     background: rgb(5, 124, 21);
-    width: 700px;
+    width: 660px;
     height: 40px;
     border-radius:20px;
     margin:auto;
@@ -85,7 +154,7 @@
 color: white;
 font-size:30px;
 background: rgb(5, 124, 21);
-width: 700px;
+width: 660px;
 height: 40px;
 border-radius:20px;
 margin:auto;
@@ -133,7 +202,15 @@ color: white;
 
 background: rgb(5, 124, 21);
 border: solid 3px rgb(3, 77, 13);
-width: 700px;
+width: 660px;
 height: 40px;
 padding:17px;
 }
+
+.wallet_token{
+    width: 200px;
+    color: white;
+    font-size: 30px;
+    float: left;
+    margin-bottom: 10px;
+ }
