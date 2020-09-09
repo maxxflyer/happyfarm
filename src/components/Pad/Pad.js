@@ -56,7 +56,7 @@ class Pad extends React.Component {
         return (
           <div id="superpad">
             <div id="beans_pad">
-              <Beans></Beans>
+              <Beans update={this.props.update}></Beans>
             </div>           
           </div>
         );
@@ -64,7 +64,7 @@ class Pad extends React.Component {
         return (
           <div id="superpad">
             <div id="DFO_pad">
-              <DFO></DFO>
+              <DFO update={this.props.update}></DFO>
             </div>           
           </div>
         );

@@ -80,4 +80,5 @@
 
 .vault_token_icon{
    width: 40px;
+   cursor: pointer;
 }
