@@ -48,7 +48,7 @@ class Pad extends React.Component {
         return (
           <div id="superpad">
             <div id="pad">
-              <HappyFarm></HappyFarm>
+              <HappyFarm update={this.props.update}></HappyFarm>
             </div>           
           </div>
         );
