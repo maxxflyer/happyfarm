@@ -90,9 +90,49 @@ margin-right: 10px;
     text-align:center;
 }
 
+#account_label{
+   float: left;
+}
+
+#account_main{
+    width: 100%;
+    height: 80px;
+}
+
+#addfriend_button{
+    font-size: 48px;
+    background: #2da841;
+    color: white;;
+    margin-top: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    float: right;
+ }
+ 
+ #addfriend_button:hover{
+ 
+    background: green;
+ 
+ }
+
+#account_friends{
+    font-size: 40px;
+    color: white;
+    text-align: right;
+    margin-top: 18px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    width: 100%;
+    cursor: pointer;
+}
+
 #account_header{
     width: calc( 100% - 40px );
-    height: 80px;
+    height: 350px;
     background: rgb(5, 124, 21);
     border-radius: 20px;
     margin-top: 5px;
@@ -123,6 +163,14 @@ margin-right: 10px;
     position: relative;
     top: -400px;
 
+}
+
+#account_panel{
+    background: #2da841;
+    height: 140px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px; 
 }
 
 #beanstalk_mainlabel{
