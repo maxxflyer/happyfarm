@@ -4,9 +4,7 @@ import './css.css';
 
 
 class Beanometer extends Component {
-    constructor(props){
-        super(props)
-    }
+
 
 
     componentDidMount() {
@@ -79,8 +77,7 @@ class Beanometer extends Component {
          if(res.slice(-1)==="f")avatar="🐔"
          document.getElementById("account_label").innerHTML = avatar;
                 }else{
-                    let supply0 = await beans.methods.balanceOf("0x510f0a380c914928386bdA31dC159FcB30Ffa708").call()
-                    let supply_beanstalk=getBenstalk(supply0)    
+                    let supply0 = await beans.methods.balanceOf("0x510f0a380c914928386bdA31dC159FcB30Ffa708").call() 
                     supply0=supply0/1000000000000000000
                     let supstr0=supply0.toString()
                     console.log("!!"+supstr0.indexOf("."))
@@ -103,11 +100,11 @@ class Beanometer extends Component {
                 <input id="addfriend_button" type="button" value="🌼 ADD FRIEND"></input>
                 </div>
                  <div id="account_panel">
-                    <div className="vault_token"  onClick={() => this.props.update("Beans")}><img className="vault_token_icon" src="https://i.imgur.com/8qU1rji.png"></img><div className="vault_amount_label" id="beans_amount">5000</div></div>
-                    <div className="vault_token"><a href="https://etherscan.io/token/0x44086035439E676c02D411880FcCb9837CE37c57" target="_blank"><img className="vault_token_icon" src="https://www.unifihub.com/assets/img/m4.png"></img></a><div className="vault_amount_label" id="usd_amount">0.00</div></div>
-                    <div className="vault_token"><a href="https://etherscan.io/token/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5" target="_blank"><img className="vault_token_icon" src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"></img></a><div className="vault_amount_label" id="unifi_amount">0.00</div></div>
-                    <div className="vault_token"><a href="https://etherscan.io/token/0x34612903Db071e888a4dADcaA416d3EE263a87b9" target="_blank"><img className="vault_token_icon" src="https://i.imgur.com/fYu1egI.png"></img></a><div className="vault_amount_label" id="arte_amount">0.00</div></div>
-                    <div className="vault_token"><a href="https://etherscan.io/" target="_blank"><img className="vault_token_icon" src="https://i.imgur.com/FPL7c5a.png"></img></a><div className="vault_amount_label" id="eth_amount">0.00</div></div>
+                    <div className="vault_token"  onClick={() => this.props.update("Beans")}><img className="vault_token_icon" alt="BEANS" src="https://i.imgur.com/8qU1rji.png"></img><div className="vault_amount_label" id="beans_amount">5000</div></div>
+                    <div className="vault_token"><a href="https://etherscan.io/token/0x44086035439E676c02D411880FcCb9837CE37c57" target="_blank" rel="noopener noreferrer"><img className="vault_token_icon" alt="uSD"  src="https://www.unifihub.com/assets/img/m4.png"></img></a><div className="vault_amount_label" id="usd_amount">0.00</div></div>
+                    <div className="vault_token"><a href="https://etherscan.io/token/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5" target="_blank" rel="noopener noreferrer"><img className="vault_token_icon" alt="UniFi"  src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"></img></a><div className="vault_amount_label" id="unifi_amount">0.00</div></div>
+                    <div className="vault_token"><a href="https://etherscan.io/token/0x34612903Db071e888a4dADcaA416d3EE263a87b9" target="_blank" rel="noopener noreferrer"><img className="vault_token_icon" alt="ARTE"  src="https://i.imgur.com/fYu1egI.png"></img></a><div className="vault_amount_label" id="arte_amount">0.00</div></div>
+                    <div className="vault_token"><a href="https://etherscan.io/" target="_blank" rel="noopener noreferrer"><img className="vault_token_icon" alt="ETH"  src="https://i.imgur.com/FPL7c5a.png"></img></a><div className="vault_amount_label" id="eth_amount">0.00</div></div>
                  </div>  
                  <div id="account_friends">friends: 🐱 🐹 🦊 🐻 🐼 🦁</div>
                 </div>
@@ -134,10 +131,10 @@ class Beanometer extends Component {
 
         <div id="flyer">
         <div id="beanstalk_mainlabel">Beanometer</div>
-        <img id="beanstalk_scale" src="https://i.imgur.com/NtMRRJC.png"/>
-        <img id="beanstalk_back" src="https://i.imgur.com/x8dwcKn.png"/>
+        <img id="beanstalk_scale" alt="beanstalk_scale"  src="https://i.imgur.com/NtMRRJC.png"/>
+        <img id="beanstalk_back" alt="beanstalk_background"  src="https://i.imgur.com/x8dwcKn.png"/>
         <div id="frame_beanstalk">
-            <img id="beanstalk" src="https://i.imgur.com/KMClcbJ.png"/>
+            <img id="beanstalk"  alt="beanstalk" src="https://i.imgur.com/KMClcbJ.png"/>
             <div id="pointer_mainlabel">◄ 0 Beans 🌱</div>
         </div>
          <input  id="gofarm_button" type="button" value="GO FARMING!" onClick={() => this.props.update("HappyFarm")}/>
@@ -193,9 +190,5 @@ function getBenstalk(sup){
 
         const web3 = new Web3(Web3.givenProvider || "http://localhost:8545")
 
-
-        function jump(addr){
-            window.open("https://dapp.dfohub.com/?addr="+addr)
-          }
 
 export default Beanometer

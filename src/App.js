@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import Home from './components/Home/Home';
 import './App.css';
 
@@ -28,7 +27,7 @@ async function main() {
   console.log('Every survey of this DFO will last ' + await myDFO.getMinimumBlockNumberForSurvey() + ' blocks');
 };
 
-main().catch(console.error);
+
 }
 
 

@@ -4,7 +4,7 @@ import Pad from '../Pad/Pad';
 import './css.css';
 
 
-class Home extends React.Component { 
+class Home extends Component { 
     constructor(props) {
         super(props)
         this.state = { panel: 'Splash' }

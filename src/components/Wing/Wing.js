@@ -34,22 +34,22 @@ class Wing extends Component {
          document.getElementById('hf_account').style.display="block";
          let res = accounts[0].substring(0, 6)+"..."+accounts[0].substring(38);
          let avatar="🐶";
-         if(res.slice(-1)=="0")avatar="🐶"
-         if(res.slice(-1)=="1")avatar="🐱"
-         if(res.slice(-1)=="2")avatar="🐹"
-         if(res.slice(-1)=="3")avatar="🐸"
-         if(res.slice(-1)=="4")avatar="🐵"
-         if(res.slice(-1)=="5")avatar="🐻"
-         if(res.slice(-1)=="6")avatar="🐼"
-         if(res.slice(-1)=="7")avatar="🐰"
-         if(res.slice(-1)=="8")avatar="🐨"
-         if(res.slice(-1)=="9")avatar="🐯"
-         if(res.slice(-1)=="a")avatar="🦁"
-         if(res.slice(-1)=="b")avatar="🐮"
-         if(res.slice(-1)=="c")avatar="🐷"
-         if(res.slice(-1)=="d")avatar="🐺"
-         if(res.slice(-1)=="e")avatar="🐗"
-         if(res.slice(-1)=="f")avatar="🐔"
+         if(res.slice(-1)==="0")avatar="🐶"
+         if(res.slice(-1)==="1")avatar="🐱"
+         if(res.slice(-1)==="2")avatar="🐹"
+         if(res.slice(-1)==="3")avatar="🐸"
+         if(res.slice(-1)==="4")avatar="🐵"
+         if(res.slice(-1)==="5")avatar="🐻"
+         if(res.slice(-1)==="6")avatar="🐼"
+         if(res.slice(-1)==="7")avatar="🐰"
+         if(res.slice(-1)==="8")avatar="🐨"
+         if(res.slice(-1)==="9")avatar="🐯"
+         if(res.slice(-1)==="a")avatar="🦁"
+         if(res.slice(-1)==="b")avatar="🐮"
+         if(res.slice(-1)==="c")avatar="🐷"
+         if(res.slice(-1)==="d")avatar="🐺"
+         if(res.slice(-1)==="e")avatar="🐗"
+         if(res.slice(-1)==="f")avatar="🐔"
          document.getElementById("wing_avatar").innerHTML = avatar;
          document.getElementById("hf_account_address").innerHTML = res;
          document.getElementById("hf_account_address").setAttribute("jump", accounts[0])
@@ -59,9 +59,9 @@ class Wing extends Component {
 
     render(){
         return (<div id="login">
-          <div id="lips_search_panel"><div id="beans_counter_label">0.0</div><div id="beans_counter_image"><img id="lips_search_icon" src="https://i.imgur.com/Hs3uInv.png" onClick={() => this.props.update("Beanometer")}/></div></div>
+          <div id="lips_search_panel"><div id="beans_counter_label">0.0</div><div id="beans_counter_image"><img id="lips_search_icon" alt="BEANS" src="https://i.imgur.com/Hs3uInv.png" onClick={() => this.props.update("Beanometer")}/></div></div>
             <div id="metamask"><div id="connect_label">connect wallet</div><img id="metamask_logo" src="http://hivemuse.com/lips/2/metamask.png" alt="metamask" onClick={this.enable}/></div>
-            <div className="hf_menu" id="hf_account"  onClick={jump}><div id="wing_avatar">🐱</div><div id="hf_account_address"></div></div>
+            <div className="hf_menu" id="hf_account"  onClick={jump}><div id="wing_avatar"><span>🐱</span></div><div id="hf_account_address"></div></div>
             
         </div>);
     }

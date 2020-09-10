@@ -4,9 +4,6 @@ import './css.css';
 
 
 class DFO extends Component {
-    constructor(props){
-        super(props)
-    }
     componentDidMount() {
         this.loadBlockchainData()
     }
@@ -60,19 +57,19 @@ class DFO extends Component {
                         QUORUM: 18% - CAP: 22%
                         </div>
                     </div>
-                    <div id="dfo_description"><a className="xlink" href="https://etherscan.io/tokenholdings?a=0x510f0a380c914928386bda31dc159fcb30ffa708" target="_blank">Vault 🗻</a></div>
+                    <div id="dfo_description"><a className="xlink" href="https://etherscan.io/tokenholdings?a=0x510f0a380c914928386bda31dc159fcb30ffa708" target="_blank" rel="noopener noreferrer">Vault 🗻</a></div>
                     <div className="clear"/>
                 <div id="vault_panel">
-                    <div className="vault_token"  onClick={() => this.props.update("Beans")}><img className="vault_token_icon" src="https://i.imgur.com/8qU1rji.png"></img><div className="vault_amount_label" id="beans_amount">5000</div></div>
-                    <div className="vault_token"><a href="https://etherscan.io/token/0x44086035439E676c02D411880FcCb9837CE37c57" target="_blank"><img className="vault_token_icon" src="https://www.unifihub.com/assets/img/m4.png"></img></a><div className="vault_amount_label" id="usd_amount">0.00</div></div>
-                    <div className="vault_token"><a href="https://etherscan.io/token/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5" target="_blank"><img className="vault_token_icon" src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"></img></a><div className="vault_amount_label" id="unifi_amount">0.00</div></div>
-                    <div className="vault_token"><a href="https://etherscan.io/token/0x34612903Db071e888a4dADcaA416d3EE263a87b9" target="_blank"><img className="vault_token_icon" src="https://i.imgur.com/fYu1egI.png"></img></a><div className="vault_amount_label" id="arte_amount">0.00</div></div>
-                    <div className="vault_token"><a href="https://etherscan.io/" target="_blank"><img className="vault_token_icon" src="https://i.imgur.com/FPL7c5a.png"></img></a><div className="vault_amount_label" id="eth_amount">0.00</div></div>
+                    <div className="vault_token"  onClick={() => this.props.update("Beans")}><img className="vault_token_icon"  alt="BEANS" src="https://i.imgur.com/8qU1rji.png"></img><div className="vault_amount_label" id="beans_amount">5000</div></div>
+                    <div className="vault_token"><a href="https://etherscan.io/token/0x44086035439E676c02D411880FcCb9837CE37c57" target="_blank" rel="noopener noreferrer"><img className="vault_token_icon" alt="uSD" src="https://www.unifihub.com/assets/img/m4.png"></img></a><div className="vault_amount_label" id="usd_amount">0.00</div></div>
+                    <div className="vault_token"><a href="https://etherscan.io/token/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5" target="_blank" rel="noopener noreferrer"><img className="vault_token_icon" alt="UniFi" src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"></img></a><div className="vault_amount_label" id="unifi_amount">0.00</div></div>
+                    <div className="vault_token"><a href="https://etherscan.io/token/0x34612903Db071e888a4dADcaA416d3EE263a87b9" target="_blank" rel="noopener noreferrer"><img className="vault_token_icon" alt="ARTE" src="https://i.imgur.com/fYu1egI.png"></img></a><div className="vault_amount_label" id="arte_amount">0.00</div></div>
+                    <div className="vault_token"><a href="https://etherscan.io/" target="_blank" rel="noopener noreferrer"><img className="vault_token_icon" alt="ETH" src="https://i.imgur.com/FPL7c5a.png"></img></a><div className="vault_amount_label" id="eth_amount">0.00</div></div>
                 </div>  
                 </div>   
                      
         <div id="uniswap_frame_container" >
-           <iframe id="uniswap_frame" src="https://uniswap.info/account/0x510f0a380c914928386bdA31dC159FcB30Ffa708"></iframe>   
+           <iframe id="uniswap_frame" title="uniswap_dfo_info" src="https://uniswap.info/account/0x510f0a380c914928386bdA31dC159FcB30Ffa708"></iframe>   
         </div>
         </div>
         );

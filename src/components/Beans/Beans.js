@@ -35,13 +35,13 @@ class Beans extends Component {
         return ( 
             <div>
                 <div id="token_panel">
-<div id="token_label_left">Total Supply: 10000🌱</div>
-<div id="token_label_center">Circulating Supply: ∼410🌱</div>
-<div id="token_label_right">Master_Wallet: 🌱</div>
-<div id="token_label_center_right">Farming 350🌱</div>
+<div id="token_label_left">Total Supply: 10000<span><img src="" alt="BEANS">🌱</img></span></div>
+<div id="token_label_center">Circulating Supply: ∼410<span><img src=""  alt="BEANS">🌱</img></span></div>
+<div id="token_label_right">Master_Wallet: <span><img src=""  alt="BEANS">🌱</img></span></div>
+<div id="token_label_center_right">Farming 350<span><img src=""  alt="BEANS">🌱</img></span></div>
                 </div>
         <div id="uniswap_frame_container" >
-           <iframe id="uniswap_frame" src="https://uniswap.info/pair/0xe05252ff06de5cf6efc13074072365ce8d64f0d2"></iframe>   
+           <iframe id="uniswap_frame" title="uniswap" src="https://uniswap.info/pair/0xe05252ff06de5cf6efc13074072365ce8d64f0d2"></iframe>   
         </div>
         </div>
         );

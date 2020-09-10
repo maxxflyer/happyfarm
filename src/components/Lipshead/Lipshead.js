@@ -3,9 +3,7 @@ import Logo from '../Logo/Logo';
 import Wing from '../Wing/Wing';
 import './css.css';
 class Lipshead extends Component {
-    constructor(props) {
-        super(props)
-    }
+
     render(){
         return ( 
         <div id="lipshead" opacity={1.0}>

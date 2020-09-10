@@ -3,9 +3,7 @@ import './css.css';
 
 
 class Instructions extends Component {
-   constructor(props){
-       super(props)
-   }
+
     render(){
         console.log(this.props.update) 
         return ( 

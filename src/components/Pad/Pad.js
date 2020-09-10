@@ -9,7 +9,7 @@ import Math from '../Math/Math';
 import './css.css'; 
 
 
-class Pad extends React.Component {
+class Pad extends Component {
     constructor() {
         super()
         this.state = {
@@ -30,7 +30,7 @@ class Pad extends React.Component {
 
     render(){ 
        
-      if(this.props.panel.panel=="Splash")
+      if(this.props.panel.panel==="Splash")
         return (
           <div id="superpad">
             <div id="pad">
@@ -38,7 +38,7 @@ class Pad extends React.Component {
             </div>
           </div>
         );
-        if(this.props.panel.panel=="Beanometer")
+        if(this.props.panel.panel==="Beanometer")
         return (
           <div id="superpad">
             <div id="pad">
@@ -46,7 +46,7 @@ class Pad extends React.Component {
             </div>           
           </div>
         );
-        if(this.props.panel.panel=="HappyFarm")
+        if(this.props.panel.panel==="HappyFarm")
         return (
           <div id="superpad">
             <div id="pad">
@@ -54,7 +54,7 @@ class Pad extends React.Component {
             </div>           
           </div>
         );
-        if(this.props.panel.panel=="Beans")
+        if(this.props.panel.panel==="Beans")
         return (
           <div id="superpad">
             <div id="beans_pad">
@@ -62,7 +62,7 @@ class Pad extends React.Component {
             </div>           
           </div>
         );
-        if(this.props.panel.panel=="DFO")
+        if(this.props.panel.panel==="DFO")
         return (
           <div id="superpad">
             <div id="DFO_pad">
@@ -70,7 +70,7 @@ class Pad extends React.Component {
             </div>           
           </div>
         );
-        if(this.props.panel.panel=="Instructions")
+        if(this.props.panel.panel==="Instructions")
         return (
           <div id="superpad">
             <div id="instructions_pad">
@@ -78,7 +78,7 @@ class Pad extends React.Component {
             </div>           
           </div>
         );
-        if(this.props.panel.panel=="Math")
+        if(this.props.panel.panel==="Math")
         return (
           <div id="superpad">
             <div id="Math_pad">
@@ -86,7 +86,7 @@ class Pad extends React.Component {
             </div>           
           </div>
         );
-        if(this.props.panel.panel=="ID")
+        if(this.props.panel.panel==="ID")
         return (
           <div id="superpad">
             <div id="ID_pad">
@@ -94,7 +94,7 @@ class Pad extends React.Component {
             </div>           
           </div>
         );
-        if(this.props.panel.panel=="NFT")
+        if(this.props.panel.panel==="NFT")
         return (
           <div id="superpad">
             <div id="NFT_pad">
