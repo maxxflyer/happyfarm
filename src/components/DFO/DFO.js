@@ -51,13 +51,13 @@ class DFO extends Component {
             <div>
                 <div id="DFO_panel">
                     <div id="dfo_header">
-                        <div id="dfo_label"  onClick={() => this.props.update("HappyFarm")}>🚜 HappyFarm DFO</div>
+                        <div id="dfo_label"  onClick={() => this.props.update("HappyFarm")}><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🚜</span> HappyFarm DFO</div>
                         <div id="dfo_mini_panel">
                         <input id="proposal_button" type="button" value="💎 PROPOSAL"  onClick={jump}></input><br></br>
                         QUORUM: 18% - CAP: 22%
                         </div>
                     </div>
-                    <div id="dfo_description"><a className="xlink" href="https://etherscan.io/tokenholdings?a=0x510f0a380c914928386bda31dc159fcb30ffa708" target="_blank" rel="noopener noreferrer">Vault 🗻</a></div>
+                    <div id="dfo_description"><a className="xlink" href="https://etherscan.io/tokenholdings?a=0x510f0a380c914928386bda31dc159fcb30ffa708" target="_blank" rel="noopener noreferrer">Vault <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🗻</span></a></div>
                     <div className="clear"/>
                 <div id="vault_panel">
                     <div className="vault_token"  onClick={() => this.props.update("Beans")}><img className="vault_token_icon"  alt="BEANS" src="https://i.imgur.com/8qU1rji.png"></img><div className="vault_amount_label" id="beans_amount">5000</div></div>

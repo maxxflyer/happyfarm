@@ -96,7 +96,7 @@ class Beanometer extends Component {
             <div id="account_container">
                 <div id="account_header">
                     <div id="account_main">
-                <div id="account_label"  onClick={() => this.props.update("HappyFarm")}>👻</div>
+                <div id="account_label"  onClick={() => this.props.update("HappyFarm")}><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">👻</span></div>
                 <input id="addfriend_button" type="button" value="🌼 ADD FRIEND"></input>
                 </div>
                  <div id="account_panel">
@@ -106,25 +106,25 @@ class Beanometer extends Component {
                     <div className="vault_token"><a href="https://etherscan.io/token/0x34612903Db071e888a4dADcaA416d3EE263a87b9" target="_blank" rel="noopener noreferrer"><img className="vault_token_icon" alt="ARTE"  src="https://i.imgur.com/fYu1egI.png"></img></a><div className="vault_amount_label" id="arte_amount">0.00</div></div>
                     <div className="vault_token"><a href="https://etherscan.io/" target="_blank" rel="noopener noreferrer"><img className="vault_token_icon" alt="ETH"  src="https://i.imgur.com/FPL7c5a.png"></img></a><div className="vault_amount_label" id="eth_amount">0.00</div></div>
                  </div>  
-                 <div id="account_friends">friends: 🐱 🐹 🦊 🐻 🐼 🦁</div>
+                 <div id="account_friends">friends: <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🐱 🐹 🦊 🐻 🐼 🦁</span></div>
                 </div>
                 <div className="account_basket_superpanel_left">
                 <div className="account_basket_panel">
                     <div className="basket_mainlabel">Basket</div>
                     <div className="account_basket_container">
-            🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🍒 🍑 🍍 🥝 🍅 🍆 🥑 🥒 🌽 🥕 
+                    <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🍒 🍑 🍍 🥝 🍅 🍆 🥑 🥒 🌽 🥕</span> 
                     </div>
                 </div>
                 <div className="account_basket_panel">
                     <div className="basket_mainlabel">Stable</div>
                     <div className="account_basket_container">
-            🐃 🐂 🐄 🐎 🐖 🐏 🐑 🐐 🦌 🐕 🐈 🐓 🦃 🐇 🦂 🐢 🐍 🦎 🐝 🐌
+                    <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🐃 🐂 🐄 🐎 🐖 🐏 🐑 🐐 🦌 🐕 🐈 🐓 🦃 🐇 🦂 🐢 🐍 🦎 🐝 🐌</span>
                     </div>
                 </div>
                 <div className="account_basket_panel">
                     <div className="basket_mainlabel">Love</div>
                     <div className="account_basket_container">
-                    💔 ❤️ 💘 💝 💖
+                    <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">💔 ❤️ 💘 💝 💖</span>
                     </div>
                 </div>
                 </div>
@@ -135,7 +135,7 @@ class Beanometer extends Component {
         <img id="beanstalk_back" alt="beanstalk_background"  src="https://i.imgur.com/x8dwcKn.png"/>
         <div id="frame_beanstalk">
             <img id="beanstalk"  alt="beanstalk" src="https://i.imgur.com/KMClcbJ.png"/>
-            <div id="pointer_mainlabel">◄ 0 Beans 🌱</div>
+            <div id="pointer_mainlabel">◄ 0 Beans <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌱</span></div>
         </div>
          <input  id="gofarm_button" type="button" value="GO FARMING!" onClick={() => this.props.update("HappyFarm")}/>
         </div>
@@ -143,20 +143,20 @@ class Beanometer extends Component {
                 <div className="account_basket_panel">
                     <div className="basket_mainlabel">Barn</div>
                     <div className="account_basket_container">
-                    🌱 🌾 🌿  🌵 🎋 🍄 🌰 🌷 🌹 🍖 🥐 🥔 🍞 🧀 🍯 🥛 🥚 🍷 💩 🐁
+                    <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌱 🌾 🌿  🌵 🎋 🍄 🌰 🌷 🌹 🍖 🥐 🥔 🍞 🧀 🍯 🥛 🥚 🍷 💩 🐁</span>
                     </div>
                 </div>
                 <div className="account_basket_panel">
                     <div className="basket_mainlabel">Special</div>
                     <div className="account_basket_container">
-                     🍭 🍬 🍫 👛 ☂️🎲 🎨 📯 🍀 🎈 💎 🎁 💸 👻 💊 💋 👽 💀 🌈 🍂
+                    <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🍭 🍬 🍫 👛 ☂️🎲 🎨 📯 🍀 🎈 💎 🎁 💸 👻 💊 💋 👽 💀 🌈 🍂</span>
                     </div>
                 </div>
              
                 <div className="account_basket_panel">
                     <div className="basket_mainlabel">Trophy</div>
                     <div className="account_basket_container">
-                    🥇 🥈 🥉 🏆 🎩
+                    <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🥇 🥈 🥉 🏆 🎩</span>
                     </div>
                 </div>
                 </div>

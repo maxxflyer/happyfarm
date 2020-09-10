@@ -52,7 +52,7 @@ class HappyFarm extends Component {
         return ( 
         <div>
             <div id="instafarm_panel">
-            <div className="clickable" onClick={() => window.open("https://www.unifihub.com/")}>🦍 InstaFarm!</div>
+            <div className="clickable" onClick={() => window.open("https://www.unifihub.com/")}><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🦍</span> InstaFarm!</div>
                     <div id="instafarm_board">
                         <br></br>
                         <br></br>
@@ -64,7 +64,7 @@ class HappyFarm extends Component {
             </div>
                 <div id="happy_flyer">
                     
-                    <div id="HappyFarm_mainlabel">🌾 Farming 🌾</div>
+                    <div id="HappyFarm_mainlabel"><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌾</span> Farming <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌾</span></div>
                
                 <div id="mainpanel">
                     <div id="farm_offer" onClick={() => jump2()}>
@@ -75,7 +75,7 @@ class HappyFarm extends Component {
                         HappyFarm
                         </div>
                         <div id="farm_offer_logic">
-                            <div className="reward">+🌱=🌱</div>
+                            <div className="reward"><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">+🌱=🌱</span></div>
                             <img className="offer_icon"   alt="offer_icon" src="https://www.unifihub.com/assets/img/m4.png"/>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ class HappyFarm extends Component {
                         HappyFarm
                         </div>
                         <div id="farm_offer_logic">
-                            <div className="reward">+🌱=🌱</div>
+                            <div className="reward">+<span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌱=🌱</span></div>
                             <img className="offer_icon"alt="offer_icon" src="https://i.imgur.com/fYu1egI.png"/>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ class HappyFarm extends Component {
                         HappyFarm
                         </div>
                         <div id="farm_offer_logic">
-                            <div className="reward">+🌱=🌱</div>
+                            <div className="reward"><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">+🌱=🌱</span></div>
                             <img className="offer_icon" alt="offer_icon" src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"/>
                         </div>
                     </div>
@@ -111,7 +111,7 @@ class HappyFarm extends Component {
                         HappyFarm
                         </div>
                         <div id="farm_offer_logic">
-                            <div className="reward">+🌱=🌱</div>
+                            <div className="reward"><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">+🌱=🌱</span></div>
                             <img className="offer_icon" alt="offer_icon" src="https://i.imgur.com/FPL7c5a.png"/>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ class HappyFarm extends Component {
                         HappyFarm
                         </div>
                         <div id="farm_offer_logic">
-                            <div className="reward">🐄+🌾=💩</div>
+                            <div className="reward"><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🐄+🌾=💩</span></div>
                         </div>
                     </div>
                     <div id="farm_offer_disabled">
@@ -134,7 +134,7 @@ class HappyFarm extends Component {
                         HappyFarm
                         </div>
                         <div id="farm_offer_logic">
-                            <div className="reward">💩+🌱=🌱</div>
+                            <div className="reward"><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">💩+🌱=🌱</span></div>
                         </div>
                     </div>
                     <div id="farm_offer_disabled">
@@ -145,36 +145,36 @@ class HappyFarm extends Component {
                         HappyFarm
                         </div>
                         <div id="farm_offer_logic">
-                            <div className="reward">+🌱+💩=🌱🌱</div>
+                            <div className="reward"><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">+🌱+💩=🌱🌱</span></div>
                             <img className="offer_icon" alt="offer_icon" src="https://i.imgur.com/FPL7c5a.png"/>
                         </div>
                     </div>
                     
                     <br></br>
                     <div className="descr_container">
-                    <div className="descr_title">HOW TO FARM Beans🌱:</div>
+                    <div className="descr_title">HOW TO FARM Beans<span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌱</span>:</div>
                     <div className="descr">1) Connect to DFOHUB at <a href="https://dapp.dfohub.com" target="_blank" rel="noopener noreferrer">dapp.dfohub.com</a></div>
                     <div className="descr">2) Enter HappyFarm</div>
                     <div className="descr">3) Select Menu DEFI</div>
                     <div className="descr">4) Select Menu FARMING</div>
                     <div className="descr">5) Choose your favorite pair and add it in the suggested proportions (Stake)</div>
-                    <div className="descr">6) You are ready to farm Beans🌱</div>
-                    <div className="descr_min">🌷<i> more pairs/offers will be added later</i></div>
+                    <div className="descr">6) You are ready to farm Beans<span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌱</span></div>
+                    <div className="descr_min"><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌷</span><i> more pairs/offers will be added later</i></div>
                     <br></br>
                     <div className="descr_min">HappyFarm! Farming together the Farm of the future!</div>
 
                     </div>
                     <div className="descr_container_dark">
-                    <div className="mini_descr">Beans🌱 are equities of HappyFarm DFO</div>
+                    <div className="mini_descr">Beans<span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌱</span> are equities of HappyFarm DFO</div>
                     <div className="mini_descr">Paper: <a href="https://cdn.discordapp.com/attachments/751252665085984882/751253034906026126/HAPPYFARM.pdf" target="_blank" rel="noopener noreferrer">Short Paper</a></div>
-                    <div className="mini_descr">Beans🌱: <a href="https://uniswap.info/token/0x801f90f81786dc72b4b9d51ab613fbe99e5e4ccd" target="_blank" rel="noopener noreferrer">UNISWAP</a></div>
-                    <div className="mini_descr">🚜HappyFarm is an ongoing R&D project (<a href="https://t.me/joinchat/F1MMkRlZ2sosNU5gcz32-g" target="_blank" rel="noopener noreferrer">Telegram</a>)</div>
+                    <div className="mini_descr">Beans<span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌱</span>: <a href="https://uniswap.info/token/0x801f90f81786dc72b4b9d51ab613fbe99e5e4ccd" target="_blank" rel="noopener noreferrer">UNISWAP</a></div>
+                    <div className="mini_descr"><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🚜</span>HappyFarm is an ongoing R&D project (<a href="https://t.me/joinchat/F1MMkRlZ2sosNU5gcz32-g" target="_blank" rel="noopener noreferrer">Telegram</a>)</div>
 
                     </div>
                 </div>
                 </div>
                 <div id="wallet_panel">
-                    <div className="clickable" onClick={() => this.props.update("Beanometer")}>Wallet 👛 </div>
+                    <div className="clickable" onClick={() => this.props.update("Beanometer")}>Wallet <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">👛</span> </div>
                     <div id="wallet_board">
                         <div id="inner_wallet_board">
                             <div className="wallet_column">
@@ -185,14 +185,14 @@ class HappyFarm extends Component {
                                <div className="wallet_token"><a href="https://etherscan.io/" target="_blank" rel="noopener noreferrer"><img className="wallet_token_icon"  alt="ETH" src="https://i.imgur.com/FPL7c5a.png"></img></a><div className="wallet_amount_label" id="eth_amount">0.00</div></div>
                             </div>  
                             <div className="wallet_column">
-                                <div className="wallet_token "  onClick={() => this.props.update("Beans")}><div className="wallet_icon">🌾</div><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
-                                <div className="wallet_token"  onClick={() => this.props.update("Beans")}><div className="wallet_icon">🐄</div><div className="wallet_amount_label" id="beans_amount">0</div></div>
-                                <div className="wallet_token"  onClick={() => this.props.update("Beans")}><div className="wallet_icon">💩</div><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
+                                <div className="wallet_token "  onClick={() => this.props.update("Beans")}><div className="wallet_icon"><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌾</span></div><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
+                                <div className="wallet_token"  onClick={() => this.props.update("Beans")}><div className="wallet_icon"><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🐄</span></div><div className="wallet_amount_label" id="beans_amount">0</div></div>
+                                <div className="wallet_token"  onClick={() => this.props.update("Beans")}><div className="wallet_icon"><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">💩</span></div><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
                             </div>  
                         </div>
                     </div>
                     <div id="control_panel">
-                        <div className="clickable" onClick={() => window.open("https://www.dfohub.com/")}>Control 🌷</div>
+                        <div className="clickable" onClick={() => window.open("https://www.dfohub.com/")}>Control <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌷</span></div>
                         <div id="control_board">
                            <input type="button" className="control_button" value="🌈 INSTRUCTIONS"  onClick={() => this.props.update("Instructions")}></input>
                            <input type="button" className="control_button" value="🚜 DFO"  onClick={() => this.props.update("DFO")}></input>
