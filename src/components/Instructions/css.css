@@ -108,6 +108,18 @@
     width:320px;
 }
 
+.Instruction_button2:hover{
+    border-radius:15px;
+    background: white;
+    color:rgb(5, 124, 21);
+}
+
+.Instruction_button3:hover{
+    border-radius:15px;
+    background: white;
+    color:rgb(5, 124, 21);
+}
+
 .Instruction_button:hover{
     border-radius:15px;
     background: white;

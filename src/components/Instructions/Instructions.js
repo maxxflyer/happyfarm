@@ -24,7 +24,7 @@ class Instructions extends Component {
                     🎄 Build Farming Services for the public</i>
                     </div>
                     <input  className="Instruction_button2" type="button" value="👽 PAPER" onClick={() => this.props.update("HappyFarm")}/>
-                    <input  className="Instruction_button3" type="button" value="👻👻👻 DFO" onClick={() => this.props.update("HappyFarm")}/>
+                    <input  className="Instruction_button3" type="button" value="👻👻👻 DFO" onClick={() => this.props.update("DFO")}/>
                 </div>
                 <div className="Instruction">
                     <div className="Instruction_image">🌱</div>

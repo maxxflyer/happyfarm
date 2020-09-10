@@ -61,22 +61,22 @@ class Beanometer extends Component {
                     document.getElementById("beanstalk").style="margin-top: -"+(500-(supply_beanstalk))+"px;";
                     let avatar="👻";
                     let res=accounts[0]
-         if(res.slice(-1)=="0")avatar="🐶"
-         if(res.slice(-1)=="1")avatar="🐱"
-         if(res.slice(-1)=="2")avatar="🐹"
-         if(res.slice(-1)=="3")avatar="🐸"
-         if(res.slice(-1)=="4")avatar="🐵"
-         if(res.slice(-1)=="5")avatar="🐻"
-         if(res.slice(-1)=="6")avatar="🐼"
-         if(res.slice(-1)=="7")avatar="🐰"
-         if(res.slice(-1)=="8")avatar="🐨"
-         if(res.slice(-1)=="9")avatar="🐯"
-         if(res.slice(-1)=="a")avatar="🦁"
-         if(res.slice(-1)=="b")avatar="🐮"
-         if(res.slice(-1)=="c")avatar="🐷"
-         if(res.slice(-1)=="d")avatar="🐺"
-         if(res.slice(-1)=="e")avatar="🐗"
-         if(res.slice(-1)=="f")avatar="🐔"
+         if(res.slice(-1)==="0")avatar="🐶"
+         if(res.slice(-1)==="1")avatar="🐱"
+         if(res.slice(-1)==="2")avatar="🐹"
+         if(res.slice(-1)==="3")avatar="🐸"
+         if(res.slice(-1)==="4")avatar="🐵"
+         if(res.slice(-1)==="5")avatar="🐻"
+         if(res.slice(-1)==="6")avatar="🐼"
+         if(res.slice(-1)==="7")avatar="🐰"
+         if(res.slice(-1)==="8")avatar="🐨"
+         if(res.slice(-1)==="9")avatar="🐯"
+         if(res.slice(-1)==="a")avatar="🦁"
+         if(res.slice(-1)==="b")avatar="🐮"
+         if(res.slice(-1)==="c")avatar="🐷"
+         if(res.slice(-1)==="d")avatar="🐺"
+         if(res.slice(-1)==="e")avatar="🐗"
+         if(res.slice(-1)==="f")avatar="🐔"
          document.getElementById("account_label").innerHTML = avatar;
                 }else{
                     let supply0 = await beans.methods.balanceOf("0x510f0a380c914928386bdA31dC159FcB30Ffa708").call()

@@ -1,27 +1,48 @@
+#Math_panel{
+    background: #2da841;
+     width: 100%;
+     height: 2000px;
+}
 
 
+.Equation{
+    width: 400px;
+    float: left;
+    margin: 10px;
+    border: solid 4px black;
+    border-radius: 15px;
+    padding: 20px;
+    background: rgb(5, 124, 21);
+    cursor: pointer;
+}
 
-#Splash_mainlabel{
+.Equation:hover{
+    border: solid 4px white;;
+}
+
+#Math_mainlabel{
     font-family: 'Oleo Script Swash Caps', cursive;
     color: white;
     font-size: 40px;
-    margin-left: -21px;
+    text-align: center;
 }
 
-#HappyFarm_sublabel{
+.Math_label{
     font-family: 'Oleo Script Swash Caps', cursive;  
     color: white;
-    font-size: 18px;
-    margin-left: -25px;
-    margin-bottom: 50px;
+    font-size: 30px;
+
+    float: right;
+    text-align: right;
 }
 
-#splash_image{
-   width: 180px;
-   margin-left:-17px;
+.Math_image{
+   width: 30px;
+   font-size: 30px;
+   float: left;
 }
 
-#splash_flyer{
+#Math_flyer{
     width: 250px;
     margin:auto;
     margin-top: 0px;
@@ -29,7 +50,7 @@
     align: center;
    }
 
-#HappyFarm_button{
+#Math_button{
     cursor: pointer;
     margin-left: -60px;
     margin-bottom: 100px;
@@ -42,7 +63,7 @@
     font-weight: bold;
 }
 
-#HappyFarm_button:hover{
+#Math_button:hover{
     border-radius:15px;
     background: white;
     color:rgb(5, 124, 21);
