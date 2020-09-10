@@ -1,0 +1,49 @@
+
+
+
+#Splash_mainlabel{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: white;
+    font-size: 40px;
+    margin-left: -21px;
+}
+
+#HappyFarm_sublabel{
+    font-family: 'Oleo Script Swash Caps', cursive;  
+    color: white;
+    font-size: 18px;
+    margin-left: -25px;
+    margin-bottom: 50px;
+}
+
+#splash_image{
+   width: 180px;
+   margin-left:-17px;
+}
+
+#splash_flyer{
+    width: 250px;
+    margin:auto;
+    margin-top: 0px;
+    height: 100%;
+    align: center;
+   }
+
+#HappyFarm_button{
+    cursor: pointer;
+    margin-left: -60px;
+    margin-bottom: 100px;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    background:rgb(5, 124, 21);
+    border-radius:15px;
+
+    font-weight: bold;
+}
+
+#HappyFarm_button:hover{
+    border-radius:15px;
+    background: white;
+    color:rgb(5, 124, 21);
+}

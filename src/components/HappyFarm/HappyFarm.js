@@ -54,7 +54,7 @@ class HappyFarm extends Component {
         return ( 
         <div>
             <div id="instafarm_panel">
-             🦍 InstaFarm!
+            <div className="clickable" onClick={() => window.open("https://www.unifihub.com/")}>🦍 InstaFarm!</div>
                     <div id="instafarm_board">
                         <br></br>
                         <br></br>
@@ -71,96 +71,138 @@ class HappyFarm extends Component {
                 <div id="mainpanel">
                     <div id="farm_offer" onClick={() => jump2()}>
                         <div id="farm_offer_icons">
-                        <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
+                        <img className="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
                         </div>
                         <div id="farm_offer_farm">
                         HappyFarm
                         </div>
                         <div id="farm_offer_logic">
-                            <div class="reward">+🌱=🌱</div>
-                            <img class="offer_icon" src="https://www.unifihub.com/assets/img/m4.png"/>
+                            <div className="reward">+🌱=🌱</div>
+                            <img className="offer_icon" src="https://www.unifihub.com/assets/img/m4.png"/>
                         </div>
                     </div>
                     <div id="farm_offer" onClick={() => jump2()}>
                         <div id="farm_offer_icons">
-                        <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
+                        <img className="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
                         </div>
                         <div id="farm_offer_farm">
                         HappyFarm
                         </div>
                         <div id="farm_offer_logic">
-                            <div class="reward">+🌱=🌱</div>
-                            <img class="offer_icon" src="https://i.imgur.com/fYu1egI.png"/>
+                            <div className="reward">+🌱=🌱</div>
+                            <img className="offer_icon" src="https://i.imgur.com/fYu1egI.png"/>
                         </div>
                     </div>
                     <div id="farm_offer" onClick={() => jump2()}>
                         <div id="farm_offer_icons">
-                        <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
+                        <img className="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
                         </div>
                         <div id="farm_offer_farm">
                         HappyFarm
                         </div>
                         <div id="farm_offer_logic">
-                            <div class="reward">+🌱=🌱</div>
-                            <img class="offer_icon" src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"/>
+                            <div className="reward">+🌱=🌱</div>
+                            <img className="offer_icon" src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"/>
                         </div>
                     </div>
                     <div id="farm_offer" onClick={() => jump2()}>
                         <div id="farm_offer_icons">
-                        <img class="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
+                        <img className="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
                         </div>
                         <div id="farm_offer_farm">
                         HappyFarm
                         </div>
                         <div id="farm_offer_logic">
-                            <div class="reward">+🌱=🌱</div>
-                            <img class="offer_icon" src="https://i.imgur.com/FPL7c5a.png"/>
+                            <div className="reward">+🌱=🌱</div>
+                            <img className="offer_icon" src="https://i.imgur.com/FPL7c5a.png"/>
+                        </div>
+                    </div>
+                    <div id="farm_offer_disabled">
+                        <div id="farm_offer_icons">
+                        <img className="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
+                        </div>
+                        <div id="farm_offer_farm">
+                        HappyFarm
+                        </div>
+                        <div id="farm_offer_logic">
+                            <div className="reward">🐄+🌾=💩</div>
+                        </div>
+                    </div>
+                    <div id="farm_offer_disabled">
+                        <div id="farm_offer_icons">
+                        <img className="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
+                        </div>
+                        <div id="farm_offer_farm">
+                        HappyFarm
+                        </div>
+                        <div id="farm_offer_logic">
+                            <div className="reward">💩+🌱=🌱</div>
+                        </div>
+                    </div>
+                    <div id="farm_offer_disabled">
+                        <div id="farm_offer_icons">
+                        <img className="farm_icon" src="https://i.imgur.com/BmHURGw.png"/>
+                        </div>
+                        <div id="farm_offer_farm">
+                        HappyFarm
+                        </div>
+                        <div id="farm_offer_logic">
+                            <div className="reward">+🌱+💩=🌱🌱</div>
+                            <img className="offer_icon" src="https://i.imgur.com/FPL7c5a.png"/>
                         </div>
                     </div>
                     
-                    
                     <br></br>
-                    <div class="descr_container">
-                    <div class="descr_title">HOW TO FARM Beans🌱:</div>
-                    <div class="descr">1) Connect to DFOHUB at <a href="https://dapp.dfohub.com" target="_blank">dapp.dfohub.com</a></div>
-                    <div class="descr">2) Enter HappyFarm</div>
-                    <div class="descr">3) Select Menu DEFI</div>
-                    <div class="descr">4) Select Menu FARMING</div>
-                    <div class="descr">5) Choose your favorite pair and add it in the suggested proportions (Stake)</div>
-                    <div class="descr">6) You are ready to farm Beans🌱</div>
-                    <div class="descr_min">🌷<i> more pairs/offers will be added later</i></div>
+                    <div className="descr_container">
+                    <div className="descr_title">HOW TO FARM Beans🌱:</div>
+                    <div className="descr">1) Connect to DFOHUB at <a href="https://dapp.dfohub.com" target="_blank">dapp.dfohub.com</a></div>
+                    <div className="descr">2) Enter HappyFarm</div>
+                    <div className="descr">3) Select Menu DEFI</div>
+                    <div className="descr">4) Select Menu FARMING</div>
+                    <div className="descr">5) Choose your favorite pair and add it in the suggested proportions (Stake)</div>
+                    <div className="descr">6) You are ready to farm Beans🌱</div>
+                    <div className="descr_min">🌷<i> more pairs/offers will be added later</i></div>
                     <br></br>
-                    <div class="descr_min">HappyFarm! Farming together the Farm of the future!</div>
+                    <div className="descr_min">HappyFarm! Farming together the Farm of the future!</div>
 
                     </div>
-                    <div class="descr_container_dark">
-                    <div class="mini_descr">Beans🌱 are equities of HappyFarm DFO</div>
-                    <div class="mini_descr">Paper: <a href="https://cdn.discordapp.com/attachments/751252665085984882/751253034906026126/HAPPYFARM.pdf" target="_blank">Short Paper</a></div>
-                    <div class="mini_descr">Beans🌱: <a href="https://uniswap.info/token/0x801f90f81786dc72b4b9d51ab613fbe99e5e4ccd" target="_blank">UNISWAP</a></div>
-                    <div class="mini_descr">🚜HappyFarm is an ongoing R&D project (<a href="https://t.me/joinchat/F1MMkRlZ2sosNU5gcz32-g" target="_blank">Telegram</a>)</div>
+                    <div className="descr_container_dark">
+                    <div className="mini_descr">Beans🌱 are equities of HappyFarm DFO</div>
+                    <div className="mini_descr">Paper: <a href="https://cdn.discordapp.com/attachments/751252665085984882/751253034906026126/HAPPYFARM.pdf" target="_blank">Short Paper</a></div>
+                    <div className="mini_descr">Beans🌱: <a href="https://uniswap.info/token/0x801f90f81786dc72b4b9d51ab613fbe99e5e4ccd" target="_blank">UNISWAP</a></div>
+                    <div className="mini_descr">🚜HappyFarm is an ongoing R&D project (<a href="https://t.me/joinchat/F1MMkRlZ2sosNU5gcz32-g" target="_blank">Telegram</a>)</div>
 
                     </div>
                 </div>
                 </div>
                 <div id="wallet_panel">
-                Wallet 👛 
-                     <div id="wallet_board">
-                    <div id="inner_wallet_board">
-                    <div className="wallet_column">
-                        <div className="wallet_token"  onClick={() => this.props.update("Beans")}><img className="wallet_token_icon" src="https://i.imgur.com/8qU1rji.png"></img><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
-                        <div className="wallet_token"><a href="https://etherscan.io/token/0x44086035439E676c02D411880FcCb9837CE37c57" target="_blank"><img className="wallet_token_icon" src="https://www.unifihub.com/assets/img/m4.png"></img></a><div className="wallet_amount_label" id="usd_amount">0.00</div></div>
-                        <div className="wallet_token"><a href="https://etherscan.io/token/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5" target="_blank"><img className="wallet_token_icon" src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"></img></a><div className="wallet_amount_label" id="unifi_amount">0.00</div></div>
-                        <div className="wallet_token"><a href="https://etherscan.io/token/0x34612903Db071e888a4dADcaA416d3EE263a87b9" target="_blank"><img className="wallet_token_icon" src="https://i.imgur.com/fYu1egI.png"></img></a><div className="wallet_amount_label" id="arte_amount">0.00</div></div>
-                        <div className="wallet_token"><a href="https://etherscan.io/" target="_blank"><img className="wallet_token_icon" src="https://i.imgur.com/FPL7c5a.png"></img></a><div className="wallet_amount_label" id="eth_amount">0.00</div></div>
-                    </div>  
-                    <div className="wallet_column">
-                        <div className="wallet_token "  onClick={() => this.props.update("Beans")}><div className="wallet_icon">🌾</div><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
-                        <div className="wallet_token"  onClick={() => this.props.update("Beans")}><div className="wallet_icon">🐄</div><div className="wallet_amount_label" id="beans_amount">0</div></div>
-                        <div className="wallet_token"  onClick={() => this.props.update("Beans")}><div className="wallet_icon">💩</div><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
-
-                       </div>  
+                    <div className="clickable" onClick={() => this.props.update("Beanometer")}>Wallet 👛 </div>
+                    <div id="wallet_board">
+                        <div id="inner_wallet_board">
+                            <div className="wallet_column">
+                                <div className="wallet_token"  onClick={() => this.props.update("Beans")}><img className="wallet_token_icon" src="https://i.imgur.com/8qU1rji.png"></img><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
+                                <div className="wallet_token"><a href="https://etherscan.io/token/0x44086035439E676c02D411880FcCb9837CE37c57" target="_blank"><img className="wallet_token_icon" src="https://www.unifihub.com/assets/img/m4.png"></img></a><div className="wallet_amount_label" id="usd_amount">0.00</div></div>
+                                <div className="wallet_token"><a href="https://etherscan.io/token/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5" target="_blank"><img className="wallet_token_icon" src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"></img></a><div className="wallet_amount_label" id="unifi_amount">0.00</div></div>
+                                <div className="wallet_token"><a href="https://etherscan.io/token/0x34612903Db071e888a4dADcaA416d3EE263a87b9" target="_blank"><img className="wallet_token_icon" src="https://i.imgur.com/fYu1egI.png"></img></a><div className="wallet_amount_label" id="arte_amount">0.00</div></div>
+                               <div className="wallet_token"><a href="https://etherscan.io/" target="_blank"><img className="wallet_token_icon" src="https://i.imgur.com/FPL7c5a.png"></img></a><div className="wallet_amount_label" id="eth_amount">0.00</div></div>
+                            </div>  
+                            <div className="wallet_column">
+                                <div className="wallet_token "  onClick={() => this.props.update("Beans")}><div className="wallet_icon">🌾</div><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
+                                <div className="wallet_token"  onClick={() => this.props.update("Beans")}><div className="wallet_icon">🐄</div><div className="wallet_amount_label" id="beans_amount">0</div></div>
+                                <div className="wallet_token"  onClick={() => this.props.update("Beans")}><div className="wallet_icon">💩</div><div className="wallet_amount_label" id="beans_amount">0.00</div></div>
+                            </div>  
+                        </div>
                     </div>
-                    </div>
+                    <div id="control_panel">
+                        <div className="clickable" onClick={() => window.open("https://www.dfohub.com/")}>Control 🌷</div>
+                        <div id="control_board">
+                           <input type="button" className="control_button" value="🌈 INSTRUCTIONS"  onClick={() => this.props.update("Instructions")}></input>
+                           <input type="button" className="control_button" value="🚜 DFO"  onClick={() => this.props.update("DFO")}></input>
+                           <input type="button" className="control_button" value="👻 ACCOUNT"  onClick={() => this.props.update("Beanometer")}></input>
+                           <input type="button" className="control_button" value="🥗 RECIPIES"  onClick={() => this.props.update("Math")}></input>
+                           <input type="button" className="control_button" value="💀 ..."></input>
+                        </div>
+                        </div>
                 </div>
         </div>
         );

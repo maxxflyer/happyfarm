@@ -142,23 +142,23 @@ class Beanometer extends Component {
         </div>
          <input  id="gofarm_button" type="button" value="GO FARMING!" onClick={() => this.props.update("HappyFarm")}/>
         </div>
-        <div class="account_basket_superpanel_right">
-                <div class="account_basket_panel">
-                    <div class="basket_mainlabel">Barn</div>
-                    <div class="account_basket_container">
+        <div className="account_basket_superpanel_right">
+                <div className="account_basket_panel">
+                    <div className="basket_mainlabel">Barn</div>
+                    <div className="account_basket_container">
                     🌱 🌾 🌿  🌵 🎋 🍄 🌰 🌷 🌹 🍖 🥐 🥔 🍞 🧀 🍯 🥛 🥚 🍷 💩 🐁
                     </div>
                 </div>
-                <div class="account_basket_panel">
-                    <div class="basket_mainlabel">Special</div>
-                    <div class="account_basket_container">
+                <div className="account_basket_panel">
+                    <div className="basket_mainlabel">Special</div>
+                    <div className="account_basket_container">
                      🍭 🍬 🍫 👛 ☂️🎲 🎨 📯 🍀 🎈 💎 🎁 💸 👻 💊 💋 👽 💀 🌈 🍂
                     </div>
                 </div>
              
-                <div class="account_basket_panel">
-                    <div class="basket_mainlabel">Trophy</div>
-                    <div class="account_basket_container">
+                <div className="account_basket_panel">
+                    <div className="basket_mainlabel">Trophy</div>
+                    <div className="account_basket_container">
                     🥇 🥈 🥉 🏆 🎩
                     </div>
                 </div>

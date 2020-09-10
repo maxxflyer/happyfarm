@@ -4,6 +4,8 @@ import Beanometer from '../Beanometer/Beanometer';
 import HappyFarm from '../HappyFarm/HappyFarm';
 import Beans from '../Beans/Beans';
 import DFO from '../DFO/DFO';
+import Instructions from '../Instructions/Instructions';
+import Math from '../Math/Math';
 import './css.css'; 
 
 
@@ -64,6 +66,38 @@ class Pad extends React.Component {
         return (
           <div id="superpad">
             <div id="DFO_pad">
+              <DFO update={this.props.update}></DFO>
+            </div>           
+          </div>
+        );
+        if(this.props.panel.panel=="Instructions")
+        return (
+          <div id="superpad">
+            <div id="instructions_pad">
+              <Instructions update={this.props.update}></Instructions>
+            </div>           
+          </div>
+        );
+        if(this.props.panel.panel=="Math")
+        return (
+          <div id="superpad">
+            <div id="Math_pad">
+              <Math update={this.props.update}></Math>
+            </div>           
+          </div>
+        );
+        if(this.props.panel.panel=="ID")
+        return (
+          <div id="superpad">
+            <div id="ID_pad">
+              <DFO update={this.props.update}></DFO>
+            </div>           
+          </div>
+        );
+        if(this.props.panel.panel=="NFT")
+        return (
+          <div id="superpad">
+            <div id="NFT_pad">
               <DFO update={this.props.update}></DFO>
             </div>           
           </div>
