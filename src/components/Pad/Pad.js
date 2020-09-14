@@ -105,6 +105,7 @@ class Pad extends Component {
         return (
           <div id="superpad">
             <div id="Avatar_pad">
+              
               <Avatar update={this.props.update}></Avatar>
             </div>           
           </div>
