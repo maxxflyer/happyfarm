@@ -5,6 +5,7 @@ class Wing extends Component {
 
   componentDidMount() {
     this.loadBlockchainData()
+    this.enable()
 }
 
 
@@ -61,7 +62,7 @@ class Wing extends Component {
         return (<div id="login">
           <div id="lips_search_panel"><div id="beans_counter_label">0.0</div><div id="beans_counter_image"><img id="lips_search_icon" alt="BEANS" src="https://i.imgur.com/Hs3uInv.png" onClick={() => this.props.update("Beanometer")}/></div></div>
             <div id="metamask"><div id="connect_label">connect wallet</div><img id="metamask_logo" src="http://hivemuse.com/lips/2/metamask.png" alt="metamask" onClick={this.enable}/></div>
-            <div className="hf_menu" id="hf_account"  onClick={jump}><div id="wing_avatar"><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🐱</span></div><div id="hf_account_address"></div></div>
+            <div className="hf_menu" id="hf_account"><div id="wing_avatar"  onClick={() => this.props.update("Avatar")}><span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🐱</span></div><div id="hf_account_address"   onClick={jump}></div></div>
             
         </div>);
     }

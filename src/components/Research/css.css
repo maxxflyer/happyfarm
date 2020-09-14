@@ -1,0 +1,78 @@
+
+#Research_title{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: white;
+    font-size: 100px;
+    width: 550px;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#Research_mainlabel{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: white;
+    font-size: 34px;
+    width: 550px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+#Research_label{
+    font-family: 'Oleo Script Swash Caps', cursive;  
+    color: white;
+    font-size: 30px;
+    margin-left: -25px;
+    margin-bottom: 70px;
+}
+
+#Research_image{
+   width: 180px;
+   margin-left:-17px;
+}
+
+.Research_sub_label{
+    font-family: 'Oleo Script Swash Caps', cursive;  
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.Research_sub_desc{
+    font-family: 'Oleo Script Swash Caps', cursive;  
+    color: white;
+    font-size: 30px;
+}
+
+
+#Research_flyer{
+    font-family: 'Oleo Script Swash Caps', cursive;  
+    color: white;
+    width: 650px;
+    margin:auto;
+    margin-top: 0px;
+    height: 100%;
+    text-align: center;
+    font-size: 200px;
+   }
+
+.Research_button{
+    cursor: pointer;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    padding: 10px;
+    padding-right: 20px;
+    font-size: 60px;
+    color: white;
+    background: rgb(5, 124, 21);
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.Research_button:hover{
+    border-radius:15px;
+    background: white;
+    color:rgb(5, 124, 21);
+}

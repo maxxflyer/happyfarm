@@ -14,14 +14,14 @@ class Instructions extends Component {
                     <div className="Instruction_label">What is HappyFarm DFO?</div>
                     <div className="clear"></div>
                     <div className="Instruction_desc">HappyFarm is a Decentralized Flexible Organization ruled by BEANS<span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌱</span> tokens, oriented to DEFI and hinabited by a community of DEFI farmers to:
-                    <br></br><br></br><i>
+                    <br></br><i>
                     <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">☘️</span> Offer Individual Farming 
                     <br></br>          
                     <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🍀</span> Research Collective Farming
                     <br></br>
                     <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🎄</span> Build Farming Services for the public</i>
                     </div>
-                    <input  className="Instruction_button2" type="button" value="👽 PAPER" onClick={() => this.props.update("HappyFarm")}/>
+                    <input  className="Instruction_button2" type="button" value="👽 PAPER" onClick={() => jump("https://cdn.discordapp.com/attachments/751252665085984882/751253034906026126/HAPPYFARM.pdf")}/>
                     <input  className="Instruction_button3" type="button" value="👻👻👻 DFO" onClick={() => this.props.update("DFO")}/>
                 </div>
                 <div className="Instruction">
@@ -43,12 +43,12 @@ class Instructions extends Component {
                     <div className="Instruction_label">What can I Farm?</div>
                     <div className="clear"></div>
                     <div className="Instruction_desc">You can farm ERC20 tokens or NFTs, from any of the offers coming from: the  or from , and also any asset of HappyFarm economy:
-                    <br></br><br></br><i>
+                    <br></br><i>
                     <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">👻</span> DFOHUB ecosystem offers
                     <br></br>          
                     <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">🌱</span> HappyFarm Economy Assets
                     <br></br>
-                    <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">⚡️</span> HappyFarm offers or offers coming from external sources...</i>
+                    <span aria-labelledby="jsx-a11y/accessible-emoji" role="img">⚡️</span> HappyFarm offers or offers from external sources...</i>
                     </div>
                     <input  className="Instruction_button2" type="button" value="🚜 FARM NOW" onClick={() => this.props.update("HappyFarm")}/>
                     <input  className="Instruction_button3" type="button" value="👻 ACCOUNT" onClick={() => this.props.update("Beanometer")}/>
@@ -70,7 +70,9 @@ class Instructions extends Component {
 
 }
 
-
+function jump(page){
+    window.open(page)
+  }
 
 
 export default Instructions

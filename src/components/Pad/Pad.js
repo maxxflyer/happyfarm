@@ -5,7 +5,15 @@ import HappyFarm from '../HappyFarm/HappyFarm';
 import Beans from '../Beans/Beans';
 import DFO from '../DFO/DFO';
 import Instructions from '../Instructions/Instructions';
+import Avatar from '../Avatar/Avatar';
+import HappyLand from '../HappyLand/HappyLand';
 import Math from '../Math/Math';
+import Token from '../Token/Token';
+import HappyProxy from '../HappyProxy/HappyProxy';
+import Research from '../Research/Research';
+
+import Lottery from '../Lottery/Lottery';
+import UnderConstruction from '../UnderConstruction/UnderConstruction';
 import './css.css'; 
 
 
@@ -29,8 +37,15 @@ class Pad extends Component {
    
 
     render(){ 
-       
-      if(this.props.panel.panel==="Splash")
+      if(this.props.stateX.panel==="UnderConstruction")
+      return (
+        <div id="superpad">
+          <div id="pad">
+            <UnderConstruction update={this.props.update}></UnderConstruction>
+          </div>
+        </div>
+      );
+      if(this.props.stateX.panel==="Splash")
         return (
           <div id="superpad">
             <div id="pad">
@@ -38,7 +53,7 @@ class Pad extends Component {
             </div>
           </div>
         );
-        if(this.props.panel.panel==="Beanometer")
+        if(this.props.stateX.panel==="Beanometer")
         return (
           <div id="superpad">
             <div id="pad">
@@ -46,7 +61,7 @@ class Pad extends Component {
             </div>           
           </div>
         );
-        if(this.props.panel.panel==="HappyFarm")
+        if(this.props.stateX.panel==="HappyFarm")
         return (
           <div id="superpad">
             <div id="pad">
@@ -54,7 +69,7 @@ class Pad extends Component {
             </div>           
           </div>
         );
-        if(this.props.panel.panel==="Beans")
+        if(this.props.stateX.panel==="Beans")
         return (
           <div id="superpad">
             <div id="beans_pad">
@@ -62,7 +77,7 @@ class Pad extends Component {
             </div>           
           </div>
         );
-        if(this.props.panel.panel==="DFO")
+        if(this.props.stateX.panel==="DFO")
         return (
           <div id="superpad">
             <div id="DFO_pad">
@@ -70,7 +85,7 @@ class Pad extends Component {
             </div>           
           </div>
         );
-        if(this.props.panel.panel==="Instructions")
+        if(this.props.stateX.panel==="Instructions")
         return (
           <div id="superpad">
             <div id="instructions_pad">
@@ -78,7 +93,7 @@ class Pad extends Component {
             </div>           
           </div>
         );
-        if(this.props.panel.panel==="Math")
+        if(this.props.stateX.panel==="Math")
         return (
           <div id="superpad">
             <div id="Math_pad">
@@ -86,22 +101,57 @@ class Pad extends Component {
             </div>           
           </div>
         );
-        if(this.props.panel.panel==="ID")
+        if(this.props.stateX.panel==="Avatar")
         return (
           <div id="superpad">
-            <div id="ID_pad">
-              <DFO update={this.props.update}></DFO>
+            <div id="Avatar_pad">
+              <Avatar update={this.props.update}></Avatar>
             </div>           
           </div>
         );
-        if(this.props.panel.panel==="NFT")
+        if(this.props.stateX.panel==="Token"){
+        window.history.pushState('token_page', 'Token Display', '/?token='+this.props.stateX.token);
         return (
           <div id="superpad">
-            <div id="NFT_pad">
-              <DFO update={this.props.update}></DFO>
+            <div id="pad">
+              <Token update={this.props.update} token={this.props.stateX.token}></Token>
             </div>           
           </div>
-        );
+        );}
+
+        if(this.props.stateX.panel==="HappyLand"){
+          window.history.pushState('token_page', 'Token Display', '/?token='+this.props.stateX.token);
+          return (
+            <div id="superpad">
+              <div id="pad">
+                <HappyLand update={this.props.update}></HappyLand>
+              </div>           
+            </div>
+          );}
+          if(this.props.stateX.panel==="Lottery"){
+            return (
+              <div id="superpad">
+                <div id="pad">
+                  <Lottery update={this.props.update}></Lottery>
+                </div>           
+              </div>
+            );}
+            if(this.props.stateX.panel==="HappyProxy"){
+              return (
+                <div id="superpad">
+                  <div id="pad">
+                    <HappyProxy update={this.props.update}></HappyProxy>
+                  </div>           
+                </div>
+              );}
+              if(this.props.stateX.panel==="Research"){
+                return (
+                  <div id="superpad">
+                    <div id="pad">
+                      <Research update={this.props.update}></Research>
+                    </div>           
+                  </div>
+                );}
     }
 
     jump = () => {

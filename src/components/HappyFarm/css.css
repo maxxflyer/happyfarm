@@ -1,12 +1,35 @@
+#left_panel{
+    float: left;
+    width: calc( ( 100% - 700px ) / 2 ); 
+}
+
 #instafarm_panel{
-width: calc( ( 100% - 700px ) / 2 ); 
+width: calc(  100%  - 20px ); 
 margin-right: 20px;
 color: white;
 font-family: 'Oleo Script Swash Caps', cursive;
 font-size: 30px;
 text-align:left;
-float: left;
 height: 300px;
+}
+
+#lottery_panel{
+width: calc(  100%  - 20px ); 
+margin-right: 20px;
+color: white;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-size: 30px;
+text-align:left;
+height: 300px;
+
+}
+
+#control_board:hover{
+    border: solid 3px white;
+}
+
+.board:hover{
+    border: solid 3px white;
 }
 
 #control_panel{
@@ -20,18 +43,48 @@ height: 300px;
     height: 300px;
     }
 
-#instafarm_board{
+    #lottery_image{
+        width: 100%;
+        font-size: 100px;
+        text-align: center;
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+
+#lottery_button{
+    font-size: 30px;
+    background: #2da841;
+    color: white;;
+    margin-top: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    width: 100%;
+    }
+
+    #lottery_button:hover{
+    background: white;
+    color: green;
+    }
+
+.board{
     cursor: pointer;
     color: white;
     font-size:20px;
+    border: solid 3px rgb(5, 124, 21);
     background: rgb(5, 124, 21);
-    width: calc( 100% - 40px );
+    width: calc( 100% - 46px );
     height: 40px;
     border-radius:20px;
     float: left;
+    margin-bottom: 10px;
     margin-top: 10px;
     padding:20px;
-    height: 300px;
+    height: 304px;
     text-align: center;
 }
 
@@ -39,14 +92,15 @@ height: 300px;
     cursor: pointer;
     color: white;
     font-size:20px;
+    border: solid 3px  rgb(5, 124, 21);
     background: rgb(5, 124, 21);
-    width: calc( 100% - 30px );
+    width: calc( 100% - 36px );
     height: 40px;
     border-radius:20px;
     float: right;
     margin-top: 10px;
     padding:20px;
-    height: 300px;
+    height: 420px;
     text-align: center;
 }
 
@@ -54,11 +108,12 @@ height: 300px;
     width: 30px;
     float: left;
     margin-right: 5px;
+    cursor:pointer;
 }
 
 
 #wallet_panel{
-    width: calc( ( 100% - 860px ) / 2 + 50px ); 
+    width: calc( ( 100% - 860px ) / 2 + 70px ); 
     float: right;
 height: 300px;
 color: white;
@@ -72,17 +127,22 @@ float: right;
 
 #wallet_board{
     font-family: 'Arial';
-
     color: white;
     font-size:30px;
     background: rgb(5, 124, 21);
-    width: calc( 100% - 30px );
-    height: 300px;
+    border: solid 3px rgb(5, 124, 21);
+    width: calc( 100% - 36px );
+    height: 294px;
     border-radius: 20px;
     /* margin-left: 40px; */
     margin-top: 10px;
     padding: 10px;
     float: right;
+}
+
+#wallet_board:hover{
+    background: rgb(5, 124, 21);
+    border: solid 3px white;
 }
 
 .wallet_amount_label{
@@ -91,7 +151,39 @@ float: right;
     float: left;
 }
 
+.emoji_right{float: right;}
+
+.sf_button:hover{
+    color: green;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    background: white;  
+}
+
+.sf_button{
+    float: right;
+    color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    background: #2da841;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    bottom: 10px;
+    margin-top: 10px;
+}
+
+.farm_offer_stats{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 270px;
+    text-align: left;
+    font-size: 25px;
+}
+
 .clickable{cursor:pointer;}
+
+.clear{clear:both;}
 
 .wallet_icon{float: left; font-size: 23px; cursor: pointer;}
 
@@ -111,7 +203,7 @@ padding:10px;
     background: #2da841;
     width: calc( 100% - 21px );
     height: calc( 100% - 21px );
-    border-radius: 20px;
+    border-radius: 15px;
     /* margin-left: 40px; */
     padding: 10px;
     float: right; 
@@ -134,6 +226,19 @@ padding:10px;
     font-family: 'Oleo Script Swash Caps', cursive;
     color: white;
     font-size: 30px;
+    float: left;
+}
+
+.happy_filters_disabled{    opacity: 30%;}
+
+#HappyFarm_filters{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: white;
+    font-size: 25px;
+    float: right;
+    margin-top: 7px;
+    margin-right: 15px;
+
 }
 
 #farm_offer_icons{
@@ -210,8 +315,8 @@ padding:10px;
 }
 
 .control_button:hover{
-    background: green;
-
+    background: white;
+color: green;
 }
 
 #splash_image{
@@ -232,22 +337,30 @@ border-radius:20px;
 margin:auto;
 margin-top: 10px;
 padding:20px;
+overflow:hidden;
 }
 
 .descr_container_dark{
-    width: 700px;
+    width: 660px;
     margin:auto;
     margin-top: 10px;
     background: rgb(5, 124, 21);
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 30px;
+    text-align:left;
 }
 
+.descr_container:hover{    border: solid 3px  white;}
 .descr_container{
-    width: 700px;
+    width: 654px;
     margin:auto;
-    margin-top: 30px;
+    margin-top: 20px;
+    text-align:left;
+    padding: 20px;
+    border: solid 3px rgb(5, 124, 21);
+    background: rgb(5, 124, 21);
+    border-radius: 20px;
 }
 
 .descr_title{
@@ -273,10 +386,31 @@ color: white;
 #farm_offer:hover{
 
 background: rgb(5, 124, 21);
-border: solid 3px rgb(3, 77, 13);
+border: solid 3px white;
 width: 660px;
-height: 40px;
+
 padding:17px;
+height: 250px;
+}
+
+.stats{
+ 
+    margin-top: 10px;
+}
+
+.stats_right_reward{
+    margin-top: 70px;
+    float: right;
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.stats_right_label{
+    margin-top: 0px;
+    float: right;
+width: 200px;
+    margin-right: 10px;
+    font-style:italic;
 }
 
 .wallet_token{

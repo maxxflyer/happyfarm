@@ -92,6 +92,7 @@ margin-right: 10px;
 
 #account_label{
    float: left;
+   cursor: pointer;
 }
 
 #account_main{
@@ -193,3 +194,21 @@ margin-top: 40px;
    margin-left:-17px;
 }
 
+#id_card_button{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    float: left;
+    margin-top: 20px;
+    background: rgb(45, 168, 65);
+    color: white;
+    font-size: 32px;
+    padding: 3px;
+    padding-right: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#id_card_button:hover{
+    background: white;
+    color: green;
+}

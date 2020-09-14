@@ -81,7 +81,15 @@
    border-radius:15px;
 }
 
-.xlink{
+#select_dfo{
+   font-size: 30px;
+   padding: 5px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   background:#2da841;
+   color: white;
+}
+#xlink{
    color: white;
    text-decoration: none;
    float: right;
@@ -89,8 +97,10 @@
 
 .clear{clear:both;}
 
+#dfo_selected_logo_image{width: 55px;}
+
 .vault_token{
-   width: 200px;
+   width: 250px;
    color: white;
    font-size: 30px;
    float: left;

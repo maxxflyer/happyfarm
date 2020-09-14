@@ -7,11 +7,11 @@ import './css.css';
 class Home extends Component { 
     constructor(props) {
         super(props)
-        this.state = { panel: 'Splash' }
+        this.state = { panel: 'Splash' , token : '0x801F90f81786dC72B4b9d51Ab613fbe99e5E4cCD' }
     }
 
-    update(panelx){
-        this.setState({panel:panelx})
+    update(panelx,tokenx){
+        this.setState({panel:panelx,token:tokenx})
         console.log("!");
      }
    
@@ -22,7 +22,7 @@ class Home extends Component {
         return (
         <div id="home">
            <Lipshead update={this.update.bind(this)}></Lipshead>
-           <Pad panel={this.state} update={this.update.bind(this)}/>
+           <Pad stateX={this.state} update={this.update.bind(this)}/>
         </div>);
     }
 }
